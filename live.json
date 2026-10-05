@@ -1,0 +1,201 @@
+{
+ "actualizado": "2026-10-05T13:00-06:00",
+ "fuente": "Meta Ads · conversaciones de WhatsApp iniciadas (7 días)",
+ "campanas": [
+  {
+   "id": "120251063801410373",
+   "nombre": "Tábita",
+   "cuenta": "Grupo Trezco",
+   "autorizado": 9000,
+   "estado": "ACTIVE",
+   "presupuestoDiario": 100.0,
+   "acumulado": {
+    "gasto": 8186.19,
+    "conversaciones": 73,
+    "impresiones": 86391,
+    "clics": 2262
+   },
+   "dias": [
+    {
+     "fecha": "2026-09-29",
+     "gasto": 105.85,
+     "conversaciones": 0,
+     "impresiones": 1065,
+     "clics": 28
+    },
+    {
+     "fecha": "2026-09-30",
+     "gasto": 115.55,
+     "conversaciones": 1,
+     "impresiones": 1050,
+     "clics": 32
+    },
+    {
+     "fecha": "2026-10-01",
+     "gasto": 76.65,
+     "conversaciones": 1,
+     "impresiones": 901,
+     "clics": 28
+    },
+    {
+     "fecha": "2026-10-02",
+     "gasto": 88.33,
+     "conversaciones": 0,
+     "impresiones": 652,
+     "clics": 22
+    },
+    {
+     "fecha": "2026-10-03",
+     "gasto": 74.68,
+     "conversaciones": 0,
+     "impresiones": 621,
+     "clics": 26
+    },
+    {
+     "fecha": "2026-10-04",
+     "gasto": 96.42,
+     "conversaciones": 0,
+     "impresiones": 776,
+     "clics": 32
+    },
+    {
+     "fecha": "2026-10-05",
+     "gasto": 21.24,
+     "conversaciones": 1,
+     "impresiones": 130,
+     "clics": 3
+    }
+   ]
+  },
+  {
+   "id": "120251063806180373",
+   "nombre": "Ameka",
+   "cuenta": "Grupo Trezco",
+   "autorizado": 7500,
+   "estado": "ACTIVE",
+   "presupuestoDiario": 250.0,
+   "acumulado": {
+    "gasto": 6237.41,
+    "conversaciones": 59,
+    "impresiones": 41857,
+    "clics": 1100
+   },
+   "dias": [
+    {
+     "fecha": "2026-09-29",
+     "gasto": 203.79,
+     "conversaciones": 4,
+     "impresiones": 1309,
+     "clics": 36
+    },
+    {
+     "fecha": "2026-09-30",
+     "gasto": 310.51,
+     "conversaciones": 3,
+     "impresiones": 1779,
+     "clics": 44
+    },
+    {
+     "fecha": "2026-10-01",
+     "gasto": 210.62,
+     "conversaciones": 8,
+     "impresiones": 1689,
+     "clics": 41
+    },
+    {
+     "fecha": "2026-10-02",
+     "gasto": 271.02,
+     "conversaciones": 4,
+     "impresiones": 3443,
+     "clics": 69
+    },
+    {
+     "fecha": "2026-10-03",
+     "gasto": 187.47,
+     "conversaciones": 2,
+     "impresiones": 1805,
+     "clics": 48
+    },
+    {
+     "fecha": "2026-10-04",
+     "gasto": 248.49,
+     "conversaciones": 1,
+     "impresiones": 3332,
+     "clics": 65
+    },
+    {
+     "fecha": "2026-10-05",
+     "gasto": 86.17,
+     "conversaciones": 1,
+     "impresiones": 756,
+     "clics": 15
+    }
+   ]
+  },
+  {
+   "id": "120251277642690072",
+   "nombre": "Aurum",
+   "cuenta": "AURUM APARTMENTS",
+   "autorizado": 5600,
+   "estado": "ACTIVE",
+   "presupuestoDiario": 185.0,
+   "acumulado": {
+    "gasto": 4631.18,
+    "conversaciones": 39,
+    "impresiones": 20843,
+    "clics": 640
+   },
+   "dias": [
+    {
+     "fecha": "2026-09-29",
+     "gasto": 194.62,
+     "conversaciones": 0,
+     "impresiones": 698,
+     "clics": 16
+    },
+    {
+     "fecha": "2026-09-30",
+     "gasto": 158.13,
+     "conversaciones": 2,
+     "impresiones": 647,
+     "clics": 17
+    },
+    {
+     "fecha": "2026-10-01",
+     "gasto": 189.58,
+     "conversaciones": 1,
+     "impresiones": 921,
+     "clics": 23
+    },
+    {
+     "fecha": "2026-10-02",
+     "gasto": 211.87,
+     "conversaciones": 3,
+     "impresiones": 833,
+     "clics": 24
+    },
+    {
+     "fecha": "2026-10-03",
+     "gasto": 114.64,
+     "conversaciones": 1,
+     "impresiones": 765,
+     "clics": 17
+    },
+    {
+     "fecha": "2026-10-04",
+     "gasto": 212.27,
+     "conversaciones": 1,
+     "impresiones": 995,
+     "clics": 24
+    },
+    {
+     "fecha": "2026-10-05",
+     "gasto": 73.16,
+     "conversaciones": 0,
+     "impresiones": 252,
+     "clics": 3
+    }
+   ]
+  }
+ ]
+}

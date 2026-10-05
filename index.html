@@ -7,7 +7,29 @@
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
 <meta name="description" content="Reporte de campañas de Trezco Master Broker.">
-<meta name="robots" content="noindex"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}</style></head><body>
+<meta name="robots" content="noindex"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}
+/* live */
+.tab.is-live span::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--ok);margin-right:8px;vertical-align:1px;box-shadow:0 0 0 0 var(--ok);animation:lv 2s ease-out infinite}
+@keyframes lv{0%{box-shadow:0 0 0 0 rgba(46,160,110,.55)}70%{box-shadow:0 0 0 7px rgba(46,160,110,0)}100%{box-shadow:0 0 0 0 rgba(46,160,110,0)}}
+.livebar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;font-size:13px;color:var(--ink-2)}
+.livebar .pulse{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ok);font-weight:600}
+.livebar .pulse::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--ok);animation:lv 2s ease-out infinite}
+.lc{background:var(--surface);border:1px solid var(--hair);border-radius:16px;padding:18px 20px;display:flex;flex-direction:column;gap:14px;border-top:3px solid var(--c);min-width:0}
+.lc .t{display:flex;justify-content:space-between;align-items:center;gap:10px}.lc .t b{font-size:18px;font-weight:600;letter-spacing:-.02em}.lc .t small{display:block;font-size:12px;color:var(--muted);font-weight:400;margin-top:2px}
+.lc .row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.lc .row b{display:block;font-size:22px;font-weight:600;letter-spacing:-.03em;line-height:1.1}.lc .row span{display:block;font-size:11.5px;color:var(--muted);margin-top:3px}
+.lc .days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;align-items:end;height:84px;position:relative}
+.lc .days .d{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:4px;height:100%;cursor:default}
+.lc .days .d i{display:block;width:100%;max-width:26px;border-radius:5px 5px 2px 2px;background:var(--c);opacity:.85;transform-origin:bottom;min-height:3px}
+.lc .days .d.today i{opacity:.4;background:repeating-linear-gradient(135deg,var(--c) 0 4px,transparent 4px 7px)}
+.lc .days .d small{font-family:var(--mono);font-size:10px;color:var(--muted)}
+.lc .days .d em{font-style:normal;font-size:11px;font-weight:600;color:var(--ink)}
+.lc .pace{display:flex;flex-direction:column;gap:6px;font-size:12.5px;color:var(--ink-2)}
+.lc .pace .tr{height:5px;border-radius:999px;background:var(--hair);overflow:hidden}.lc .pace .tr i{display:block;height:100%;background:var(--c);border-radius:999px;transform-origin:left}
+.lc .pace .r{display:flex;justify-content:space-between;gap:10px}
+.lt{font-size:13px}.lt th,.lt td{white-space:nowrap}
+.lgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media (max-width:900px){.lgrid{grid-template-columns:minmax(0,1fr)}}
+</style></head><body>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,7 +93,7 @@ button,select{font:inherit;color:inherit;background:none;border:0;cursor:pointer
 .period select{position:absolute;inset:0;width:100%;opacity:0;cursor:pointer}
 .period .car{color:var(--muted);font-size:11px}
 .tabs{position:relative;display:flex;flex-direction:column;gap:2px}
-.tab{position:relative;z-index:1;display:grid;grid-template-columns:22px minmax(0,1fr);gap:8px;align-items:center;text-align:left;padding:9px 10px;border-radius:999px;color:var(--ink-2);font-size:13.5px;font-weight:500;text-decoration:none;transition:color .15s ease,background .15s ease}
+.tab{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr);gap:8px;align-items:center;text-align:left;padding:9px 10px;border-radius:999px;color:var(--ink-2);font-size:13.5px;font-weight:500;text-decoration:none;transition:color .15s ease,background .15s ease}
 .tab i{font-style:normal;font-family:var(--mono);font-size:11px;color:var(--muted)}
 @media (hover:hover) and (pointer:fine){.tab:hover{color:var(--ink);background:rgba(210,194,168,.05)}}
 .tab[aria-current="page"]{color:var(--ink);font-weight:600}
@@ -358,7 +380,7 @@ try{applyTheme(localStorage.getItem('trezco-theme')||'')}catch(e){applyTheme('')
 $$('.theme').forEach(b=>b.addEventListener('click',()=>{const t=isDark()?'light':'dark';applyTheme(t);try{localStorage.setItem('trezco-theme',t)}catch(e){}redraw(false)}));
 
 /* ---------- vistas (nombres generales, sirven cada mes) ---------- */
-const VIEWS=[['resumen','Resumen'],['indicadores','Indicadores'],['desarrollos','Desarrollos'],['embudo','Embudo y leads'],['respuesta','Respuesta'],['anuncios','Anuncios'],['eventos','Eventos'],['plan','Plan del mes'],['presupuesto','Presupuesto'],['calendario','Calendario'],['socios','Decisiones'],['evidencia','Evidencia']];
+const VIEWS=[['resumen','Resumen'],['live','Live'],['indicadores','Indicadores'],['desarrollos','Desarrollos'],['embudo','Embudo y leads'],['respuesta','Respuesta'],['anuncios','Anuncios'],['eventos','Eventos'],['plan','Plan del mes'],['presupuesto','Presupuesto'],['calendario','Calendario'],['socios','Decisiones'],['evidencia','Evidencia']];
 const HIDDEN=['datos'];
 
 function vh(k,h,p){return `<div class="vh"><div class="k">${k}</div><h1>${h}</h1>${p?`<p>${p}</p>`:''}</div>`}
@@ -377,65 +399,87 @@ const R={
   <div><div class="hd" style="margin-bottom:10px"><h2>Los ocho números contra su meta</h2><a href="#indicadores" style="font-size:12.5px">Ver detalle →</a></div><div class="ind">${D.ocho.map(o=>`<a href="#indicadores"><span class="n">${String(o.n).padStart(2,'0')} · ${esc(o.nombre)}</span><span class="v num"><span class="dotl ${o.estado}-bg"></span>${esc(o.valor)}</span><span class="m">meta ${esc(o.meta)}</span></a>`).join('')}</div></div>
   <div class="g2"><div class="card"><h2>Qué hicimos</h2><ol class="steps-l">${r.hicimos.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div><div class="card"><h2>Cómo mejoraremos</h2><ol class="steps-l acc">${r.mejoraremos.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div></div>`},
 
+
+ live(){if(!LIVE)return vh('Live','Sin datos en vivo por ahora','No se pudo leer live.json. Vuelve a abrir la página o avísale a Rodrigo.');
+  const L=LIVE,cs=L.campanas,upd=new Date(L.actualizado);const now=new Date();const mins=Math.max(0,Math.round((now-upd)/60000));const ago=mins<60?`hace ${mins} min`:mins<1440?`hace ${Math.round(mins/60)} h`:`hace ${Math.round(mins/1440)} d`;
+  const fdate=upd.toLocaleString('es-MX',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
+  const sum=(arr,k)=>arr.reduce((a,x)=>a+(x[k]||0),0);const last=c=>c.dias[c.dias.length-1]||{},prev=c=>c.dias[c.dias.length-2]||{};
+  const tHoy={g:sum(cs.map(last),'gasto'),c:sum(cs.map(last),'conversaciones')},tAyer={g:sum(cs.map(prev),'gasto'),c:sum(cs.map(prev),'conversaciones')};
+  const t7={g:cs.reduce((a,c)=>a+sum(c.dias,'gasto'),0),c:cs.reduce((a,c)=>a+sum(c.dias,'conversaciones'),0)};const tAcc={g:sum(cs.map(c=>c.acumulado),'gasto'),c:sum(cs.map(c=>c.acumulado),'conversaciones'),a:sum(cs,'autorizado')};
+  const cpc=(g,c)=>c?money(g/c):'—';const dl=f=>{const d=new Date(f+'T12:00:00');return d.toLocaleDateString('es-MX',{weekday:'short'}).replace('.','').slice(0,3)};
+  const cards=cs.map((c,i)=>{const h=last(c),a=prev(c);const g7=sum(c.dias,'gasto'),c7=sum(c.dias,'conversaciones');const mx=Math.max(1,...c.dias.map(d=>d.conversaciones));const pct=c.acumulado.gasto/c.autorizado;const rest=Math.max(0,c.autorizado-c.acumulado.gasto);const avg=g7/Math.max(1,c.dias.length-1);const diasRest=avg>0?Math.round(rest/avg):null;const active=c.estado==='ACTIVE';
+    return `<div class="lc" style="--c:${devCol(c.nombre)}"><div class="t"><div><b>${esc(c.nombre)}</b><small>${esc(c.cuenta)} · ${money(c.presupuestoDiario)} al día</small></div>${chip(active?'Activa':'Pausada',active?'ok':'mid')}</div>
+    <div class="row"><div><b class="num">${c7}</b><span>conv. · 7 días</span></div><div><b class="num">${cpc(g7,c7)}</b><span>por conv. · 7 días</span></div><div><b class="num">${h.conversaciones||0}</b><span>hoy · ${money(h.gasto||0)}</span></div></div>
+    <div class="days" data-live-days>${c.dias.map((d,k)=>`<div class="d${k===c.dias.length-1?' today':''}" data-l="${esc(dl(d.fecha))} ${d.fecha.slice(8)}" data-v="${d.conversaciones} conv · ${money(d.gasto)} · ${int(d.impresiones)} imp"><em>${d.conversaciones||''}</em><i style="height:${Math.max(4,d.conversaciones/mx*100)}%"></i><small>${esc(dl(d.fecha))}</small></div>`).join('')}</div>
+    <div class="pace"><div class="r"><span>Ayer gastó ${money(a.gasto||0)} de ${money(c.presupuestoDiario)}</span><span class="num">${c.presupuestoDiario?Math.round((a.gasto||0)/c.presupuestoDiario*100):0}%</span></div><div class="tr"><i style="transform:scaleX(${Math.min(1,(a.gasto||0)/(c.presupuestoDiario||1)).toFixed(3)})"></i></div>
+    <div class="r"><span>Acumulado ${money(c.acumulado.gasto)} de ${money(c.autorizado)}</span><span class="num">${Math.round(pct*100)}%</span></div><div class="tr"><i style="transform:scaleX(${Math.min(1,pct).toFixed(3)})"></i></div>
+    <div class="r"><span>${diasRest===null?'':diasRest===0?'Presupuesto agotado':`Al ritmo actual le quedan unos ${diasRest} días`}</span><span>${c.acumulado.conversaciones} conv · ${cpc(c.acumulado.gasto,c.acumulado.conversaciones)}</span></div></div></div>`}).join('');
+  const flat=cs.flatMap(c=>c.dias.map(d=>({c,d}))).sort((a,b)=>b.d.fecha.localeCompare(a.d.fecha)||cs.indexOf(a.c)-cs.indexOf(b.c));const lastF=flat[0]?.d.fecha;const rows=flat.map(({c,d})=>`<tr><td class="l" style="font-family:var(--mono)">${esc(d.fecha.slice(5))}${d.fecha===lastF?' <span class="chip cy" style="padding:1px 6px;font-size:10.5px">hoy</span>':''}</td><td class="name"><span class="dotl" style="background:${devCol(c.nombre)}"></span>${esc(c.nombre)}</td><td class="n">${money(d.gasto)}</td><td class="n">${d.conversaciones}</td><td class="n">${cpc(d.gasto,d.conversaciones)}</td><td class="n">${int(d.impresiones)}</td><td class="n">${int(d.clics)}</td><td class="n">${d.impresiones?(d.clics/d.impresiones*100).toFixed(1)+'%':'—'}</td></tr>`).join('');
+  return vh('Live','Cómo van las campañas ahora mismo',`<span class="livebar"><span class="pulse">En vivo</span><span>Actualizado ${ago} · ${esc(fdate)}</span><span>${esc(L.fuente)}</span></span>`)+
+  `<div class="kpis"><div class="kpi"><div class="l">Hoy, en curso</div><div class="v num">${tHoy.c}</div><div class="s">conversaciones · ${money(tHoy.g)} gastados</div></div><div class="kpi"><div class="l">Ayer</div><div class="v num">${tAyer.c}</div><div class="s">conversaciones · ${money(tAyer.g)} · ${cpc(tAyer.g,tAyer.c)} cada una</div></div><div class="kpi"><div class="l">Últimos 7 días</div><div class="v num">${t7.c}</div><div class="s">conversaciones · ${money(t7.g)} · ${cpc(t7.g,t7.c)} cada una</div></div><div class="kpi"><div class="l">Acumulado de las campañas</div><div class="v num">${money(tAcc.g)}</div><div class="s">de ${money(tAcc.a)} autorizados · ${tAcc.c} conversaciones</div></div></div>
+  <div class="lgrid">${cards}</div>
+  <div class="card"><div class="hd"><div><h2>Día por día</h2><p class="sub">Últimos siete días por campaña. El día de hoy sigue acumulando.</p></div></div><div class="tbl"><table class="lt"><thead><tr><th class="l">Día</th><th class="l">Campaña</th><th>Gasto</th><th>Conv.</th><th>Costo</th><th>Impresiones</th><th>Clics</th><th>CTR</th></tr></thead><tbody>${rows}</tbody></table></div></div>
+  <p class="src">Las cifras vienen directo de Meta Ads y pueden ajustarse unas horas después (Meta termina de atribuir conversaciones hasta 7 días). Se actualizan de forma automática varias veces al día. En el reporte mensual, la campaña del Open House se suma a Tábita; aquí cada campaña aparece por separado.</p>`},
+
  indicadores(){const tone={ok:'ok',bad:'bad',mid:'mid'};
-  return vh('02 · Indicadores','Los ocho números que se repiten cada mes','Mismo orden, mismos nombres, cada mes. Las metas vienen del plan de adquisición acordado antes de lanzar; el primer mes queda como línea base para comparar los siguientes.')+
+  return vh('Indicadores','Los ocho números que se repiten cada mes','Mismo orden, mismos nombres, cada mes. Las metas vienen del plan de adquisición acordado antes de lanzar; el primer mes queda como línea base para comparar los siguientes.')+
   `<div class="tbl"><table><thead><tr><th class="l">#</th><th class="l">Número</th><th>${esc(D.periodo.titulo)}</th><th>Meta</th><th>Estado</th><th class="l">Lectura</th></tr></thead><tbody>${D.ocho.map(o=>`<tr><td class="l" style="font-family:var(--mono)">${o.n}</td><td class="name">${esc(o.nombre)}</td><td class="n ${o.estado==='bad'?'bad-t':''}">${esc(o.valor)}</td><td>${esc(o.meta)}</td><td>${chip(o.etiqueta,tone[o.estado])}</td><td class="l">${esc(o.lectura)}</td></tr>`).join('')}</tbody></table></div>
   <div class="g3">${D.adelantados.map(a=>`<div class="card hov"><h2>${esc(a.nombre)}</h2><div class="kpi" style="padding:0;border:0;background:none"><div class="v num">${esc(a.valor)} <span style="font-size:14px;font-weight:400;color:var(--muted)">${esc(a.de)}</span></div></div><p class="src">${esc(a.nota)}</p></div>`).join('')}</div>
   <p class="src">Fuente única por métrica: gasto, impresiones y conversaciones de Meta Ads; leads, calificación, citas y ventas de Odoo. Con menos de 30 casos se reportan números absolutos, no porcentajes.</p>`},
 
  desarrollos(){const ds=D.desarrollos,sd=D.sinDesarrollo;const rank=[...ds].sort((a,b)=>a.invertido/a.interesados-b.invertido/b.interesados);
-  return vh('03 · Desarrollos','Los tres gastaron menos de lo autorizado y por debajo de la meta de costo','Cada desarrollo tiene su propio presupuesto y no se mezclan. Orden por costo por interesado, de menor a mayor.')+
+  return vh('Desarrollos','Los tres gastaron menos de lo autorizado y por debajo de la meta de costo','Cada desarrollo tiene su propio presupuesto y no se mezclan. Orden por costo por interesado, de menor a mayor.')+
   `<div class="rank">${rank.map((d,i)=>`<div class="rk"><span class="pos">0${i+1}</span><span class="acc" style="background:${devCol(d.nombre)}"></span><div class="nm">${esc(d.nombre)}<small>${money(d.invertido)} de ${money(d.autorizado)} · ${Math.round(d.invertido/d.autorizado*100)}%</small></div><div class="m"><b class="num">${d.conversaciones}</b><span>conversaciones · ${money(d.invertido/d.conversaciones)}</span></div><div class="m"><b class="num">${d.leads}</b><span>leads · ${d.interesados} interesados</span></div><div class="m"><b class="num">${money(d.invertido/d.interesados)}</b><span>por interesado</span></div></div>`).join('')}</div>
   <p class="src">${esc(sd.leads)} leads más llegaron sin palabra clave y no se asignan a un desarrollo.</p>
   <div class="g3">${ds.map(d=>{const p=d.invertido/d.autorizado;return `<div class="card hov"><div class="ring"><svg viewBox="0 0 72 72" aria-hidden="true"><circle cx="36" cy="36" r="30" fill="none" stroke="rgba(210,194,168,.1)" stroke-width="6"/><circle class="arc" cx="36" cy="36" r="30" fill="none" stroke="${devCol(d.nombre)}" stroke-width="6" stroke-linecap="round" pathLength="100" stroke-dasharray="${(p*100).toFixed(1)} 100" data-p="${(p*100).toFixed(1)}"/></svg><div><div class="v num">${Math.round(p*100)}%</div><div class="l">del presupuesto de ${esc(d.nombre)} usado</div></div></div><div><div class="legend" style="gap:10px"><span>${int(d.impresiones)} impresiones</span><span>${int(d.clics)} clics</span></div><div class="stack" style="margin-top:10px" data-stack>${[['calientes','--bad','Calientes'],['tibios','--sand','Tibios'],['frios','--navy-l','Fríos'],['nocalifica','--hair-2','No califican']].map(([k,c,l])=>d[k]?`<span style="flex:${d[k]};background:var(${c})" data-l="${l}" data-v="${d[k]}"></span>`:'').join('')}</div><p class="src" style="margin-top:8px">${d.calientes} calientes · ${d.tibios} tibios · ${d.frios} fríos · ${d.nocalifica} no califican</p></div><p class="note" style="font-size:13px">${esc(d.nota)}</p></div>`}).join('')}</div>
   <div class="card"><div class="hd"><div><h2>Conversaciones por día</h2><p class="sub">Toca una serie para destacarla</p></div><div class="seg" id="segd" role="group" aria-label="Serie"><button type="button" aria-pressed="true" data-s="0" style="--sc:var(--cyan)"><i></i>Total</button>${ds.map((d,i)=>`<button type="button" aria-pressed="false" data-s="${i+1}" style="--sc:${devCol(d.nombre)}"><i></i>${esc(d.nombre)}</button>`).join('')}</div></div><div class="chart" id="daily"></div><p class="src">${esc(D.diario.nota)}</p></div>`},
 
  embudo(){const e=D.embudo;const base=e.pasos[1].valor;let worst=-1,wv=1;e.pasos.forEach((p,i)=>{if(i>1&&e.pasos[i-1].valor>0){const c=p.valor/e.pasos[i-1].valor;if(c<wv){wv=c;worst=i}}});
-  return vh('04 · Embudo y leads','El embudo se rompe entre el interés y la cita','De la conversación en adelante, cada paso con su número real. Uno de cada cinco leads muestra interés real; casi ninguno llega a un asesor.')+
+  return vh('Embudo y leads','El embudo se rompe entre el interés y la cita','De la conversación en adelante, cada paso con su número real. Uno de cada cinco leads muestra interés real; casi ninguno llega a un asesor.')+
   `<div class="card"><div class="fun" id="fun">${e.pasos.map((p,i)=>{const w=i===0?100:p.valor/base*100;const prev=e.pasos[i-1];const pc=i>0&&prev.valor>0?p.valor/prev.valor*100:null;const cv=pc===null?'':(pc<1&&pc>0?pc.toFixed(2)+'%':Math.round(pc)+'%');return `<div class="fr${p.valor===0?' zero':''}" data-i="${i}"><div class="lb">${esc(p.nombre)}</div><div class="bx">${p.valor?`<span class="${i===0?'base':''}" style="width:${w}%"></span>`:''}</div><div class="val num">${esc(p.texto)}</div><div class="cv ${i===worst?'worst':''}">${cv}</div></div>`}).join('')}</div><p class="src">Impresiones y conversaciones: Meta Ads, tres campañas de compradores. Leads, interesados, asesor y citas: Odoo CRM. La columna derecha es la conversión de cada paso respecto al anterior; en rojo, la caída más fuerte.</p></div>
   <div class="g2"><div class="card"><h2>Etapa de cada lead en Odoo</h2><div class="bars">${e.etapas.map(s=>{const mx=Math.max(...e.etapas.map(x=>x.valor));return `<div class="bar"><div class="top"><b>${esc(s.nombre)}</b><span class="num">${s.valor}</span></div><div class="track"><div class="fill" style="width:${s.valor/mx*100}%;background:${s.nombre==='Perdido'?'var(--hair-2)':s.nombre==='Cita agendada'?'var(--bad)':'linear-gradient(90deg,var(--cyan-fill),var(--cyan))'}"></div></div></div>`}).join('')}</div><p class="src">${esc(e.notaEtapas)}</p></div>
   <div class="card"><h2>De dónde escriben</h2><p class="note">${esc(e.origen)}</p><h2 style="margin-top:6px">Palabras clave</h2><p class="note">${esc(e.palabras)}</p></div></div>`},
 
  respuesta(){const r=D.respuesta;
-  return vh('05 · Tiempo de respuesta','Contestamos a las 12.8 horas. La meta es 5 minutos.','Revisamos uno por uno los chats de los 31 leads que entraron del 25 de septiembre al 5 de octubre. Es la primera medición del indicador número 8.')+
+  return vh('Tiempo de respuesta','Contestamos a las 12.8 horas. La meta es 5 minutos.','Revisamos uno por uno los chats de los 31 leads que entraron del 25 de septiembre al 5 de octubre. Es la primera medición del indicador número 8.')+
   `<div class="kpis"><div class="kpi"><div class="l">Mediana hasta la primera respuesta</div><div class="v num">${esc(r.mediana)}</div><div class="s">de una persona, no del mensaje automático</div></div><div class="kpi"><div class="l">Contestados en menos de una hora</div><div class="v num">${esc(r.menosUnaHora)}</div><div class="s">leads con respuesta</div></div><div class="kpi"><div class="l">El caso más largo</div><div class="v num">${esc(r.maximo)}</div><div class="s">un sábado por la tarde</div></div><div class="kpi"><div class="l">Llegaron a un asesor</div><div class="v num">${esc(r.aAsesor)}</div><div class="s">leads nuevos del periodo</div></div></div>
   <div class="g2"><div class="card"><h2>Cuánto tardamos en contestar</h2><p class="sub">29 leads con respuesta · pasa el cursor por cada barra</p><div class="chart" id="resp"></div></div><div class="card"><h2>Qué pasa en la práctica</h2><ul class="plain">${r.hallazgos.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p class="src">${esc(r.referencia)}</p></div></div>`},
 
  anuncios(){const a=D.anuncios;const mx=Math.max(...a.lista.map(x=>x.conv));
-  return vh('06 · Anuncios','Tres videos generaron 122 de las 174 conversaciones',esc(a.intro))+
+  return vh('Anuncios','Tres videos generaron 122 de las 174 conversaciones',esc(a.intro))+
   `<div class="tbl"><table><thead><tr><th class="l">Anuncio</th><th class="l">Desarrollo</th><th>Invertido</th><th class="l">Conversaciones</th><th>Costo</th><th class="l">Estado</th></tr></thead><tbody>${a.lista.map((x,i)=>`<tr><td class="name" ${i>2?'style="font-weight:400;color:var(--ink-2)"':''}>${esc(x.nombre)}</td><td class="l"><span class="dot" style="background:${devCol(x.dev)}"></span>${esc(x.dev)}</td><td class="n">${money(x.invertido)}</td><td class="l"><span class="fill" style="position:static;display:inline-block;height:6px;border-radius:3px;vertical-align:middle;margin-right:8px;width:${Math.max(x.conv/mx*120,3)}px;background:${i<3?devCol(x.dev):'var(--hair-2)'}"></span>${x.conv}</td><td ${x.conv<5?'style="color:var(--muted)"':''}>${money(x.invertido/x.conv)}</td><td class="l ${x.alerta?'bad-t':''}">${esc(x.estado)}</td></tr>`).join('')}</tbody></table></div>
   <p class="src">Con menos de 5 conversaciones el costo se muestra como referencia. Fuente: Meta Ads, desde el inicio de cada anuncio.</p>
   ${a.porque?`<div class="card hero"><h2>${esc(a.porque.titulo)}</h2><p class="note" style="max-width:none">${esc(a.porque.texto)}</p><ul class="plain">${a.porque.resultado.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:''}
   <div class="g2"><div class="card"><h2>Qué aprendimos</h2><ul class="plain">${a.aprendimos.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div><div class="card"><h2>El anuncio ideal, según lo medido</h2><ul class="plain">${a.ideal.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p class="src">${esc(a.idealFuente)}</p></div></div>`},
 
  eventos(){const o=D.openhouse;
-  return vh('07 · Eventos',esc(o.titulo),esc(o.intro))+
+  return vh('Eventos',esc(o.titulo),esc(o.intro))+
   `<div class="kpis">${o.cifras.map(c=>`<div class="kpi"><div class="v num">${esc(c.valor)}</div><div class="s">${esc(c.label)}</div></div>`).join('')}</div>
   <div class="g2"><div class="card"><h2>Lo que dejó</h2><ul class="plain">${o.dejo.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div><div class="card"><h2>Cómo se invitó</h2><ul class="plain">${o.como.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div></div>`},
 
  plan(){const o=D.octubre;
-  return vh('08 · Plan del mes',esc(o.titulo),esc(o.intro))+
+  return vh('Plan del mes',esc(o.titulo),esc(o.intro))+
   `<div class="goal"><div><h3>${esc(o.metaPrincipal.nombre)}</h3><p>${esc(o.metaPrincipal.nota)}</p></div><div class="v num">${esc(o.metaPrincipal.valor)}</div></div>
   <div class="tbl"><table><thead><tr><th class="l">Meta del mes</th><th>Mes anterior</th><th>Meta</th><th class="l">Responsable</th><th class="l">Cómo se mide</th></tr></thead><tbody>${o.metas.map(m=>`<tr><td class="name">${esc(m.nombre)}</td><td>${esc(m.antes)}</td><td class="n" style="color:var(--cyan)">${esc(m.meta)}</td><td class="l">${esc(m.quien)}</td><td class="l">${esc(m.como)}</td></tr>`).join('')}</tbody></table></div>
   <div class="g2"><div class="card"><h2>Seguimiento día por día</h2><ul class="tl">${o.seguimiento.map(s=>`<li><b>${esc(s.dia)}</b><span>${esc(s.texto)}</span></li>`).join('')}</ul></div><div class="card"><h2>Reglas del mes</h2><ul class="plain">${o.reglas.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h2 style="margin-top:6px">Cambios en las campañas, en orden</h2><ul class="plain">${o.cambios.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p class="src">Un cambio por semana, para saber qué funcionó.</p></div></div>`},
 
  presupuesto(){const p=D.presupuesto;
-  return vh('09 · Presupuesto y proyección','Más presupuesto sí, por escalones y con condición',esc(p.intro))+
+  return vh('Presupuesto y proyección','Más presupuesto sí, por escalones y con condición',esc(p.intro))+
   `<div class="steps">${p.escalones.map(e=>`<div class="step ${e.actual?'now':''}"><div class="k">${esc(e.nombre)}</div><div class="v num">${esc(e.diario)}</div><p>${esc(e.texto)}</p></div>`).join('')}</div>
   <div class="card"><h2>Proyección del mes con $22,000</h2><div class="tbl" style="border:0;background:none"><table><thead><tr><th class="l">Etapa</th><th>Bajo</th><th>Base</th><th>Alto</th><th class="l">De dónde sale</th></tr></thead><tbody>${p.proyeccion.map(r=>`<tr><td class="name">${esc(r.etapa)}</td><td>${esc(r.bajo)}</td><td class="n" style="color:var(--cyan)">${esc(r.base)}</td><td>${esc(r.alto)}</td><td class="l">${esc(r.fuente)}</td></tr>`).join('')}</tbody></table></div></div>
   <div class="g2"><div class="card"><h2>Economía unitaria</h2><ul class="plain">${p.unitaria.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div><div class="card"><h2>Referencias de mercado</h2><ul class="plain">${p.mercado.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div></div>`},
 
  calendario(){const c=D.calendario;
-  return vh('10 · Calendario','Lo que se construyó y lo que sigue','A la izquierda, lo hecho en el periodo. A la derecha, el mes que entra con fechas: las de cierre de campaña y llegada de presupuesto son las que indicaron los socios; el resto son propuestas.')+
+  return vh('Calendario','Lo que se construyó y lo que sigue','A la izquierda, lo hecho en el periodo. A la derecha, el mes que entra con fechas: las de cierre de campaña y llegada de presupuesto son las que indicaron los socios; el resto son propuestas.')+
   `<div class="g2"><div class="card"><h2>Lo construido</h2><ul class="tl">${c.hecho.map(x=>`<li class="done"><b>${esc(x.fecha)}</b><span>${esc(x.texto)}</span></li>`).join('')}</ul></div><div class="card"><h2>Lo que sigue</h2><ul class="tl">${c.sigue.map(x=>`<li class="${x.hoy?'now':''}"><b>${esc(x.fecha)}</b><span>${esc(x.texto)}</span></li>`).join('')}</ul></div></div>`},
 
  socios(){const s=D.socios;
-  return vh('11 · Decisiones de los socios','Sin estos puntos, las metas del mes no se sostienen',esc(s.intro))+
+  return vh('Decisiones de los socios','Sin estos puntos, las metas del mes no se sostienen',esc(s.intro))+
   `<div class="card"><ul class="asks">${s.pedidos.map(p=>`<li><div><b>${esc(p.que)}</b><span>${esc(p.detalle)}</span></div><em>${esc(p.cuando)}</em></li>`).join('')}</ul></div>
   <div class="card"><h2>Riesgos</h2><ul class="plain">${s.riesgos.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`},
 
  evidencia(){const e=D.evidencia;
-  return vh('12 · Evidencia y fuentes','En qué se basan las metas y las propuestas',esc(e.intro))+
+  return vh('Evidencia y fuentes','En qué se basan las metas y las propuestas',esc(e.intro))+
   `<div class="card"><ul class="rows">${e.puntos.map(p=>`<li><div class="big num">${esc(p.cifra)}</div><div><h3>${esc(p.titulo)}</h3><p>${esc(p.texto)}</p></div></li>`).join('')}</ul></div>
   <div class="card"><h2>Fuentes</h2><ul class="plain" style="gap:5px;font-size:13px">${e.fuentes.map(f=>`<li><a href="${esc(f.u)}" target="_blank" rel="noopener">${esc(f.t)}</a></li>`).join('')}</ul></div>
   <p class="src">Preparó ${esc(D.periodo.preparo)}. Gasto, impresiones, clics y conversaciones: Meta Ads, cuentas Grupo Trezco y AURUM Apartments. Leads, calificación, etapas y asesores: Odoo CRM. Tiempos de respuesta: revisión de los chats de WhatsApp. Eventos: reporte interno.</p>`},
@@ -472,6 +516,7 @@ function drawResp(animate){const box=$('#resp');if(!box)return;const B=D.respues
   const tp=tipper(box),svg=box.querySelector('svg');$$('.rg',svg).forEach(g=>{g.addEventListener('mousemove',e=>{const b=B[+g.dataset.i],r=box.getBoundingClientRect();tp.show(`<b>${esc(b.nombre)}</b><div class="r"><span>Leads</span><span class="num">${b.valor}</span></div><div class="r"><span>Del total</span><span class="num">${Math.round(b.valor/tot*100)}%</span></div>`,e.clientX-r.left,e.clientY-r.top)});g.addEventListener('mouseleave',tp.hide)});
   if(G&&!reduce&&animate){G.fromTo($$('.rb',svg),{scaleY:0},{scaleY:1,duration:.6,ease:'power3.out',stagger:.04});G.fromTo($$('.rv',svg),{opacity:0},{opacity:1,duration:.3,delay:.45,stagger:.04})}
 }
+function bindLive(view){$$('[data-live-days]',view).forEach(h=>{h.style.position='relative';const tp=tipper(h);$$('.d',h).forEach(d=>{d.addEventListener('mousemove',e=>{const r=h.getBoundingClientRect();tp.show(`<b>${esc(d.dataset.l)}</b><div class="r"><span>${esc(d.dataset.v)}</span></div>`,e.clientX-r.left,e.clientY-r.top)});d.addEventListener('mouseleave',tp.hide)})})}
 function bindStacks(view){$$('[data-stack]',view).forEach(st=>{const host=st.parentElement;host.style.position='relative';const tp=tipper(host);$$('span',st).forEach(sp=>{sp.addEventListener('mousemove',e=>{const r=host.getBoundingClientRect();tp.show(`<div class="r"><span>${esc(sp.dataset.l)}</span><span class="num">${sp.dataset.v}</span></div>`,e.clientX-r.left,e.clientY-r.top)});sp.addEventListener('mouseleave',tp.hide)})})}
 function bindFunnel(view){const fun=$('#fun',view);if(!fun)return;const host=fun.parentElement;host.style.position='relative';const P=D.embudo.pasos,tp=tipper(host);$$('.fr',fun).forEach(fr=>{fr.addEventListener('mousemove',e=>{const i=+fr.dataset.i,p=P[i],r=host.getBoundingClientRect();const fromConv=i>=1?Math.round(p.valor/P[1].valor*100)+'% de las conversaciones':'';const prev=i>0&&P[i-1].valor?Math.round(p.valor/P[i-1].valor*100)+'% del paso anterior':'';tp.show(`<b>${esc(p.nombre)} · ${esc(p.fuente)}</b><div class="r"><span>Cantidad</span><span class="num">${int(p.valor)}</span></div>${fromConv?`<div class="r"><span>${fromConv}</span></div>`:''}${prev?`<div class="r"><span>${prev}</span></div>`:''}`,e.clientX-r.left,e.clientY-r.top)});fr.addEventListener('mouseleave',tp.hide)})}
 function bindSeg(id,key,boxId,H,ev){const seg=$('#'+id);if(!seg)return;seg.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;feat[key]=+b.dataset.s;$$('button',seg).forEach(x=>x.setAttribute('aria-pressed',x===b));$$('.dev').forEach(x=>x.classList.toggle('on',+x.dataset.dev===feat[key]));lineChart(boxId,key,H,false,ev)})}
@@ -480,10 +525,10 @@ function redraw(animate){lineChart('spark','spark',250,animate,false);lineChart(
 
 /* ---------- animación de entrada ---------- */
 function animateIn(view,firstLoad){if(!G||reduce)return;
-  const els=$$('.vh,.band,.card,.kpi,.dev,.ind a,.rk,.step,.tbl,.goal',view);
+  const els=$$('.vh,.band,.card,.kpi,.dev,.ind a,.rk,.step,.tbl,.goal,.lc',view);
   G.fromTo(els,{y:12,opacity:0},{y:0,opacity:1,duration:.48,ease:'expo.out',stagger:{each:.045,from:'start'},delay:firstLoad?.12:0,clearProps:'transform'});
   $$('[data-count]',view).forEach(el=>{const target=+el.dataset.count,fmt=el.dataset.fmt;const o={v:0};G.to(o,{v:target,duration:1,ease:'expo.out',delay:.35,onUpdate(){el.textContent=fmt==='moneda'?money(o.v):fmt==='horas'?(Math.round(o.v*10)/10).toLocaleString('es-MX',{minimumFractionDigits:1})+' h':int(o.v)}})});
-  G.fromTo($$('.fill,.fr .bx span,.stack span',view),{scaleX:0},{scaleX:1,duration:.55,ease:'power3.out',stagger:.03,delay:.3,clearProps:'transform'});
+  G.fromTo($$('.lc .days i',view),{scaleY:0},{scaleY:1,duration:.6,ease:'power3.out',stagger:.025,delay:.3,clearProps:'transform'});$$('.lc .pace .tr i',view).forEach(el=>{const to=el.style.transform;G.fromTo(el,{scaleX:0},{scaleX:parseFloat(to.replace(/[^\d.]/g,''))||1,duration:.6,ease:'power3.out',delay:.4})});G.fromTo($$('.fill,.fr .bx span,.stack span',view),{scaleX:0},{scaleX:1,duration:.55,ease:'power3.out',stagger:.03,delay:.3,clearProps:'transform'});
   $$('.dev .tr i',view).forEach(el=>{const to=el.style.transform;G.fromTo(el,{scaleX:0},{scaleX:parseFloat(to.replace(/[^\d.]/g,''))||1,duration:.6,ease:'power3.out',delay:.4})});
   $$('.dev .spk .ln',view).forEach((ln,i)=>{const len=ln.getTotalLength();G.set(ln,{strokeDasharray:len,strokeDashoffset:len});G.to(ln,{strokeDashoffset:0,duration:.9,ease:'power2.inOut',delay:.35+i*.08})});
   $$('.arc',view).forEach(a=>{const p=+a.dataset.p;const o={v:0};G.to(o,{v:p,duration:.8,ease:'power2.out',delay:.3,onUpdate(){a.setAttribute('stroke-dasharray',o.v.toFixed(1)+' 100')}})});
@@ -491,7 +536,7 @@ function animateIn(view,firstLoad){if(!G||reduce)return;
 
 /* ---------- navegación ---------- */
 let firstLoad=true;
-function buildNav(){const html=VIEWS.map(([id,t],i)=>`<a class="tab" href="#${id}" data-id="${id}"><i>${String(i+1).padStart(2,'0')}</i><span>${t}</span></a>`).join('');$('#nav-side').insertAdjacentHTML('beforeend',html);$('#nav-top').innerHTML=html}
+function buildNav(){const html=VIEWS.map(([id,t])=>`<a class="tab${id==='live'?' is-live':''}" href="#${id}" data-id="${id}"><span>${t}</span></a>`).join('');$('#nav-side').insertAdjacentHTML('beforeend',html);$('#nav-top').innerHTML=html}
 function movePill(){const a=$('#nav-side .tab[aria-current="page"]'),p=$('#pill');if(!a){p.hidden=true;return}p.hidden=false;p.style.height=a.offsetHeight+'px';p.style.transform=`translateY(${a.offsetTop}px)`}
 function show(id){if(!VIEWS.some(v=>v[0]===id)&&!HIDDEN.includes(id))id='resumen';const host=$('#views');const prev=host.firstElementChild;
   const render=()=>{host.innerHTML=`<section class="view" id="v-${id}">${R[id]()}</section>`;const v=host.firstElementChild;
@@ -500,7 +545,7 @@ function show(id){if(!VIEWS.some(v=>v[0]===id)&&!HIDDEN.includes(id))id='resumen
     if(id==='resumen'){lineChart('spark','spark',250,true,false);bindSeg('segh','spark','spark',250,false);
       $$('.dev',v).forEach(c=>c.addEventListener('click',()=>{const i=+c.dataset.dev;feat.spark=feat.spark===i?0:i;$$('.dev',v).forEach(x=>x.classList.toggle('on',+x.dataset.dev===feat.spark));syncSeg('segh',feat.spark);lineChart('spark','spark',250,false,false)}))}
     if(id==='desarrollos'){lineChart('daily','daily',300,true,true);bindSeg('segd','daily','daily',300,true);bindStacks(v)}
-    if(id==='embudo')bindFunnel(v);if(id==='respuesta')drawResp(true);if(id==='datos')bindEditor();
+    if(id==='embudo')bindFunnel(v);if(id==='live')bindLive(v);if(id==='respuesta')drawResp(true);if(id==='datos')bindEditor();
     animateIn(v,firstLoad);firstLoad=false};
   if(prev&&G&&!reduce){G.to(prev,{opacity:0,y:-4,duration:.12,onComplete:render})}else render();
 }
@@ -524,6 +569,8 @@ function bindEditor(){const ta=$('#json'),msg=$('#msg');ta.value=JSON.stringify(
 
 /* ---------- arranque ---------- */
 if('serviceWorker' in navigator && !/claude\.ai$/.test(location.hostname)){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))}
+let LIVE=null;
+fetch('live.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{LIVE=j;if(location.hash==='#live')show('live')}).catch(()=>{});
 buildNav();
 fetch('data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{DEFAULT=j;ALL=j;let local=null;try{local=localStorage.getItem('trezco-data')}catch(e){}if(local){try{const l=JSON.parse(local);if(Array.isArray(l.periodos))ALL=l}catch(e){}}let saved=null;try{saved=localStorage.getItem('trezco-period')}catch(e){}setPeriod(saved);show(location.hash.slice(1))}).catch(err=>{$('#views').innerHTML=`<section class="view"><div class="vh"><div class="k">Datos</div><h1>No se pudieron cargar los datos del reporte</h1><p>Vuelve a abrir la página. Si sigue igual, avísale a Rodrigo. (${esc(err.message)})</p></div></section>`});
 })();
