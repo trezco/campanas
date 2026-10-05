@@ -674,39 +674,6 @@
           ]
         }
       },
-      "openhouse": {
-        "titulo": "42 personas de 16 inmobiliarias conocieron el departamento muestra",
-        "intro": "El miércoles 30 de septiembre presentamos el departamento muestra terminado a asesores externos, con recorrido guiado por el muestra y por los departamentos de 2 recámaras en planta alta, y una convivencia con tortas de cochinita.",
-        "cifras": [
-          {
-            "valor": "42",
-            "label": "Asistentes, en su mayoría asesores inmobiliarios"
-          },
-          {
-            "valor": "16",
-            "label": "Inmobiliarias representadas"
-          },
-          {
-            "valor": "2",
-            "label": "Asesoras que llegaron con cliente interesado"
-          },
-          {
-            "valor": "$398",
-            "label": "Pauta de la invitación · 5 conversaciones a $80"
-          }
-        ],
-        "dejo": [
-          "La distribución y la ubicación fueron muy bien valoradas por los asesores.",
-          "Varios asesores grabaron contenido para sus redes: difusión de Tábita sin costo de pauta.",
-          "Inmobiliarias con más asesores presentes: Apisen (9), SI Bienes Raíces (5), Inmoera, RentableGroup y Grupo Logre (3 cada una).",
-          "De este canal sale la operación más avanzada del mes: la promesa de compraventa del cliente de Ofelia (Apisen) está en preparación, con firma prevista esta semana."
-        ],
-        "como": [
-          "Campaña dirigida solo a asesores: audiencia de interacción con la página de Trezco más una lista de 1,115 teléfonos de asesores.",
-          "Las dos audiencias quedaron guardadas en Meta para invitar a los siguientes eventos sin volver a subir la lista.",
-          "Es el canal B2B: un asesor que se suma produce durante meses, así que su costo se juzga a 90 días."
-        ]
-      },
       "octubre": {
         "titulo": "Octubre tiene un solo objetivo: el primer apartado de campaña",
         "intro": "Un apartado no se puede prometer; las citas sí se pueden trabajar. Por eso el mes se mide con seis metas que dependen del equipo y que, según la evidencia, son las que llevan a la venta.",
@@ -883,82 +850,122 @@
         "hecho": [
           {
             "fecha": "9 sep",
-            "texto": "Se pausaron 4 campañas viejas y se crearon 3 nuevas con tope de gasto por desarrollo."
+            "texto": "Se pausaron 4 campañas viejas y se crearon 3 nuevas con tope de gasto por desarrollo.",
+            "tipo": "campana"
           },
           {
             "fecha": "10 sep",
-            "texto": "Aurum, Ameka y Tábita al aire el mismo día, con 2 videos cada una."
+            "texto": "Aurum, Ameka y Tábita al aire el mismo día, con 2 videos cada una.",
+            "tipo": "campana"
           },
           {
             "fecha": "11 sep",
-            "texto": "Respuestas rápidas en WhatsApp para Katia, una por palabra clave."
+            "texto": "Respuestas rápidas en WhatsApp para Katia, una por palabra clave.",
+            "tipo": "operacion"
           },
           {
             "fecha": "15 sep",
-            "texto": "Primer lote de leads leído de WhatsApp y registrado en Odoo con campaña y calificación."
+            "texto": "Primer lote de leads leído de WhatsApp y registrado en Odoo con campaña y calificación.",
+            "tipo": "operacion"
           },
           {
             "fecha": "22 sep",
-            "texto": "Ajuste de segmentación y entrada de las versiones con precio visible."
+            "texto": "Ajuste de segmentación y entrada de las versiones con precio visible.",
+            "tipo": "campana"
           },
           {
             "fecha": "25 sep",
-            "texto": "Cada lead comentado, movido a su etapa y asignado. Sale la campaña del Open House."
+            "texto": "Cada lead comentado, movido a su etapa y asignado. Sale la campaña del Open House.",
+            "tipo": "operacion"
           },
           {
             "fecha": "30 sep",
-            "texto": "Open House de Tábita con 42 asistentes."
+            "texto": "Open House de Tábita con 42 asistentes.",
+            "tipo": "evento"
           },
           {
             "fecha": "5 oct",
-            "texto": "34 conversaciones más registradas en Odoo y primera medición del tiempo de respuesta."
+            "texto": "34 conversaciones más registradas en Odoo y primera medición del tiempo de respuesta.",
+            "tipo": "reporte"
           }
         ],
         "sigue": [
           {
             "fecha": "Lun 5",
-            "texto": "Cierre de datos del reporte. Dinero de Tábita en mano: ficha de pago y depósito."
+            "texto": "Cierre de datos del reporte. Dinero de Tábita en mano: ficha de pago y depósito.",
+            "tipo": "presupuesto"
           },
           {
             "fecha": "Mar 6",
             "texto": "Presentación de este reporte a los socios en la oficina. Corregir el mensaje automático. Firma de promesa en Tábita. Los 24 interesados sin asesor quedan asignados.",
-            "hoy": true
+            "hoy": true,
+            "tipo": "reporte"
           },
           {
             "fecha": "Mié 7",
-            "texto": "Videos de amueblado con la nueva fecha. Incentivo de octubre definido para Ameka y Aurum."
+            "texto": "Videos de amueblado con la nueva fecha. Incentivo de octubre definido para Ameka y Aurum.",
+            "tipo": "campana"
           },
           {
             "fecha": "Jue 8",
-            "texto": "Depósito acreditado; Tábita vuelve al aire con al menos $300 al día."
+            "texto": "Depósito acreditado; Tábita vuelve al aire con al menos $300 al día.",
+            "tipo": "presupuesto"
           },
           {
             "fecha": "Vie 9",
-            "texto": "Cierran Ameka y Aurum con su presupuesto actual. Rodaje de los primeros videos nuevos."
+            "texto": "Cierran Ameka y Aurum con su presupuesto actual. Rodaje de los primeros videos nuevos.",
+            "tipo": "campana"
           },
           {
             "fecha": "Lun 12",
-            "texto": "Salen 2 videos nuevos por desarrollo. Primera revisión semanal."
+            "texto": "Salen 2 videos nuevos por desarrollo. Primera revisión semanal.",
+            "tipo": "campana"
           },
           {
             "fecha": "Lun 19",
-            "texto": "Entra una imagen fija por desarrollo. Prueba del objetivo de clientes potenciales."
+            "texto": "Entra una imagen fija por desarrollo. Prueba del objetivo de clientes potenciales.",
+            "tipo": "campana"
           },
           {
             "fecha": "Sáb 24",
-            "texto": "Segunda visita al departamento muestra, abierta a clientes, y sesión en línea para foráneos."
+            "texto": "Segunda visita al departamento muestra, abierta a clientes, y sesión en línea para foráneos.",
+            "tipo": "evento"
           },
           {
             "fecha": "Lun 26",
-            "texto": "Decisión sobre el escalón 2 de presupuesto."
+            "texto": "Decisión sobre el escalón 2 de presupuesto.",
+            "tipo": "presupuesto"
           },
           {
             "fecha": "Sáb 31",
-            "texto": "Meta: 15 citas realizadas y el primer apartado de campaña."
+            "texto": "Meta: 15 citas realizadas y el primer apartado de campaña.",
+            "tipo": "operacion"
           },
           {
             "fecha": "Lun 2 nov",
-            "texto": "Reporte de octubre, con tasas propias de cita y apartado."
+            "texto": "Reporte de octubre, con tasas propias de cita y apartado.",
+            "tipo": "reporte"
+          }
+        ],
+        "tipos": {
+          "campana": "Campañas y anuncios",
+          "operacion": "Seguimiento y operación",
+          "evento": "Eventos",
+          "presupuesto": "Presupuesto (socios)",
+          "reporte": "Reportes"
+        },
+        "meses": [
+          {
+            "nombre": "Septiembre 2026",
+            "anio": 2026,
+            "mes": 9,
+            "lista": "hecho"
+          },
+          {
+            "nombre": "Octubre 2026",
+            "anio": 2026,
+            "mes": 10,
+            "lista": "sigue"
           }
         ]
       },
@@ -1128,7 +1135,80 @@
           }
         ]
       },
-      "id": "2026-09"
+      "id": "2026-09",
+      "eventos": {
+        "intro": "Cada evento del mes tiene su propia sección con asistencia, resultados y el rendimiento de la campaña que lo invitó. Toca un evento para abrirlo.",
+        "lista": [
+          {
+            "id": "cochinita-tabita",
+            "nombre": "Cochinita Tábita",
+            "tipo": "Open House para asesores",
+            "fecha": "Mié 30 sep",
+            "desarrollo": "Tábita",
+            "titulo": "42 personas de 16 inmobiliarias conocieron el departamento muestra",
+            "intro": "El miércoles 30 de septiembre presentamos el departamento muestra terminado a asesores externos, con recorrido guiado por el muestra y por los departamentos de 2 recámaras en planta alta, y una convivencia con tortas de cochinita.",
+            "cifras": [
+              {
+                "valor": "42",
+                "label": "Asistentes, en su mayoría asesores inmobiliarios"
+              },
+              {
+                "valor": "16",
+                "label": "Inmobiliarias representadas"
+              },
+              {
+                "valor": "2",
+                "label": "Asesoras que llegaron con cliente interesado"
+              },
+              {
+                "valor": "$398",
+                "label": "Pauta de la invitación · 5 conversaciones a $80"
+              }
+            ],
+            "dejo": [
+              "La distribución y la ubicación fueron muy bien valoradas por los asesores.",
+              "Varios asesores grabaron contenido para sus redes: difusión de Tábita sin costo de pauta.",
+              "Inmobiliarias con más asesores presentes: Apisen (9), SI Bienes Raíces (5), Inmoera, RentableGroup y Grupo Logre (3 cada una).",
+              "De este canal sale la operación más avanzada del mes: la promesa de compraventa del cliente de Ofelia (Apisen) está en preparación, con firma prevista esta semana."
+            ],
+            "como": [
+              "Campaña dirigida solo a asesores: audiencia de interacción con la página de Trezco más una lista de 1,115 teléfonos de asesores.",
+              "Las dos audiencias quedaron guardadas en Meta para invitar a los siguientes eventos sin volver a subir la lista.",
+              "Es el canal B2B: un asesor que se suma produce durante meses, así que su costo se juzga a 90 días."
+            ],
+            "campana": {
+              "nombre": "Evento · Open House Tábita",
+              "gasto": 398,
+              "conversaciones": 5,
+              "impresiones": 2638,
+              "clics": 165,
+              "inicio": "25 sep",
+              "fin": "30 sep",
+              "audiencia": "Asesores: interacción con la página de Trezco + lista de 1,115 teléfonos",
+              "estado": "Pausada al terminar el evento",
+              "metaCosto": 160
+            },
+            "resultados": [
+              {
+                "label": "Asistentes",
+                "valor": "42"
+              },
+              {
+                "label": "Inmobiliarias",
+                "valor": "16"
+              },
+              {
+                "label": "Asesoras con cliente",
+                "valor": "2"
+              },
+              {
+                "label": "Promesas en preparación",
+                "valor": "1"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
