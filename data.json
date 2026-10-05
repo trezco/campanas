@@ -917,12 +917,12 @@
         "sigue": [
           {
             "fecha": "Lun 5",
-            "texto": "Entrega de este reporte. Dinero de Tábita en mano: ficha de pago y depósito.",
-            "hoy": true
+            "texto": "Cierre de datos del reporte. Dinero de Tábita en mano: ficha de pago y depósito."
           },
           {
             "fecha": "Mar 6",
-            "texto": "Corregir el mensaje automático. Firma de promesa en Tábita. Los 24 interesados sin asesor quedan asignados."
+            "texto": "Presentación de este reporte a los socios en la oficina. Corregir el mensaje automático. Firma de promesa en Tábita. Los 24 interesados sin asesor quedan asignados.",
+            "hoy": true
           },
           {
             "fecha": "Mié 7",

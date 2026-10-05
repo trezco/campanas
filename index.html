@@ -324,7 +324,6 @@ textarea{width:100%;min-height:420px;background:var(--canvas);color:var(--ink);b
     <div class="foot">
       <button class="theme theme-d" type="button"><span class="theme-ic">☀</span><span class="theme-tx">Modo claro</span></button>
       <span>Fuentes: Meta Ads, Odoo CRM y WhatsApp de ventas. Pesos mexicanos.</span>
-      <a href="#datos" class="edit-link">Editar datos</a>
     </div>
   </aside>
 
@@ -518,8 +517,8 @@ $$('.p-sel').forEach(s=>s.addEventListener('change',()=>{setPeriod(s.value);show
 
 /* ---------- editor ---------- */
 function bindEditor(){const ta=$('#json'),msg=$('#msg');ta.value=JSON.stringify(ALL,null,2);
-  $('#apply').addEventListener('click',()=>{try{const nd=JSON.parse(ta.value);if(!Array.isArray(nd.periodos)||!nd.periodos.length)throw new Error('falta la lista "periodos"');ALL=nd;try{localStorage.setItem('trezco-data',ta.value)}catch(e){}setPeriod(pid);msg.className='msg okm';msg.textContent='Aplicado en este dispositivo. Recorre las pestañas para verlo; para publicarlo, copia el JSON y pásalo a Claude.'}catch(e){msg.className='msg err';const m=/position (\d+)/.exec(e.message);const line=m?' (línea '+ta.value.slice(0,+m[1]).split('\n').length+')':'';msg.textContent='Hay un error en el formato'+line+': '+e.message}});
-  $('#copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(ta.value);msg.className='msg okm';msg.textContent='Copiado. Pégalo en el chat con Claude para publicarlo.'}catch(e){ta.select();msg.className='msg';msg.textContent='Selecciona el texto y cópialo con Cmd+C.'}});
+  $('#apply').addEventListener('click',()=>{try{const nd=JSON.parse(ta.value);if(!Array.isArray(nd.periodos)||!nd.periodos.length)throw new Error('falta la lista "periodos"');ALL=nd;try{localStorage.setItem('trezco-data',ta.value)}catch(e){}setPeriod(pid);msg.className='msg okm';msg.textContent='Aplicado en este dispositivo. Recorre las pestañas para verlo; para publicarlo, copia el JSON y envíalo a Rodrigo (marketing).'}catch(e){msg.className='msg err';const m=/position (\d+)/.exec(e.message);const line=m?' (línea '+ta.value.slice(0,+m[1]).split('\n').length+')':'';msg.textContent='Hay un error en el formato'+line+': '+e.message}});
+  $('#copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(ta.value);msg.className='msg okm';msg.textContent='Copiado. Envíalo a Rodrigo (marketing) para publicarlo.'}catch(e){ta.select();msg.className='msg';msg.textContent='Selecciona el texto y cópialo con Cmd+C.'}});
   $('#reset').addEventListener('click',()=>{ALL=JSON.parse(JSON.stringify(DEFAULT));ta.value=JSON.stringify(ALL,null,2);try{localStorage.removeItem('trezco-data')}catch(e){}setPeriod(pid);msg.className='msg';msg.textContent='Se restauró la versión publicada.'});
 }
 
