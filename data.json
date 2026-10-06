@@ -4,15 +4,15 @@
     {
       "periodo": {
         "titulo": "Septiembre 2026",
-        "rango": "10 sep – 5 oct 2026",
-        "corte": "Lunes 5 de octubre, 11:00 am",
-        "actualizado": "2026-10-05T11:00:00-06:00",
+        "rango": "10 sep – 6 oct 2026",
+        "corte": "Martes 6 de octubre, 9:30 am",
+        "actualizado": "2026-10-06T09:30:00-06:00",
         "preparo": "Rodrigo Avila"
       },
       "resumen": {
         "titular": "Atraer clientes funciona. El trabajo de octubre es convertirlos.",
-        "entrada": "Las campañas de Tábita, Ameka y Aurum generaron 174 conversaciones de WhatsApp a $111 cada una, 31% por debajo de la meta de $160. Con ese dinero se esperaban 121; llegaron 53 más. Después del primer mensaje el embudo se frena: tardamos 12.8 horas en contestar y solo 8 de 32 interesados tienen asesor.",
-        "paso": "Invertimos $19,369 de los $22,100 autorizados. 145 leads registrados en Odoo; 32 mostraron interés real y 4 son calientes.",
+        "entrada": "Las campañas de Tábita, Ameka y Aurum generaron 181 conversaciones de WhatsApp a $111 cada una, 31% por debajo de la meta de $160. Con ese dinero se esperaban 125; llegaron 56 más. Después del primer mensaje el embudo se frena: tardamos 12.8 horas en contestar y solo 8 de 32 interesados tienen asesor.",
+        "paso": "Invertimos $20,040 de los $22,100 autorizados. 145 leads registrados en Odoo; 32 mostraron interés real y 4 son calientes.",
         "significa": "La captación cumple su meta. La conversión no: ninguna cita realizada y la respuesta al primer mensaje tarda medio día en lugar de minutos.",
         "proponemos": "Medir octubre en citas: contestar en 5 minutos, asesor el mismo día para cada interesado, 15 citas realizadas y el primer apartado de campaña.",
         "bien": [
@@ -45,10 +45,10 @@
       "kpis": [
         {
           "label": "Invertido",
-          "valor": 19369,
+          "valor": 20040,
           "formato": "moneda",
           "sub": "de $22,100 autorizados",
-          "delta": "88% del presupuesto",
+          "delta": "91% del presupuesto",
           "tono": "ok"
         },
         {
@@ -80,20 +80,20 @@
         {
           "n": 1,
           "nombre": "Inversión en pauta",
-          "valor": "$19,369",
+          "valor": "$20,040",
           "meta": "$22,100",
           "estado": "ok",
-          "etiqueta": "88%",
+          "etiqueta": "91%",
           "lectura": "Incluye $398 del Open House. No incluye producción."
         },
         {
           "n": 2,
           "nombre": "Conversaciones de WhatsApp",
-          "valor": "174",
-          "meta": "≥ 121",
+          "valor": "181",
+          "meta": "≥ 125",
           "estado": "ok",
           "etiqueta": "Cumplida",
-          "lectura": "Meta = inversión entre $160. 169 de compradores y 5 del Open House."
+          "lectura": "Meta = inversión entre $160. 176 de compradores y 5 del Open House."
         },
         {
           "n": 3,
@@ -102,7 +102,7 @@
           "meta": "≤ $160",
           "estado": "ok",
           "etiqueta": "Cumplida",
-          "lectura": "Tábita $111, Ameka $107, Aurum $118."
+          "lectura": "Tábita $112, Ameka $107, Aurum $115."
         },
         {
           "n": 4,
@@ -110,8 +110,8 @@
           "valor": "145",
           "meta": "Todos",
           "estado": "ok",
-          "etiqueta": "86%",
-          "lectura": "145 de 169 conversaciones. El resto no llegó a escribir."
+          "etiqueta": "82%",
+          "lectura": "145 de 176 conversaciones. Las de ayer y hoy aún no se registran; el resto no llegó a escribir."
         },
         {
           "n": 5,
@@ -174,11 +174,11 @@
         {
           "id": "tabita",
           "nombre": "Tábita",
-          "invertido": 8574,
+          "invertido": 8711,
           "autorizado": 9000,
-          "impresiones": 89029,
-          "clics": 2427,
-          "conversaciones": 77,
+          "impresiones": 90170,
+          "clics": 2457,
+          "conversaciones": 78,
           "leads": 65,
           "interesados": 18,
           "calientes": 4,
@@ -215,17 +215,18 @@
             0,
             0,
             0,
+            1,
             0
           ]
         },
         {
           "id": "ameka",
           "nombre": "Ameka",
-          "invertido": 6193,
+          "invertido": 6503,
           "autorizado": 7500,
-          "impresiones": 41593,
-          "clics": 1091,
-          "conversaciones": 58,
+          "impresiones": 44571,
+          "clics": 1141,
+          "conversaciones": 61,
           "leads": 47,
           "interesados": 9,
           "calientes": 0,
@@ -262,17 +263,18 @@
             4,
             2,
             1,
+            3,
             0
           ]
         },
         {
           "id": "aurum",
           "nombre": "Aurum",
-          "invertido": 4602,
+          "invertido": 4826,
           "autorizado": 5600,
-          "impresiones": 20756,
-          "clics": 638,
-          "conversaciones": 39,
+          "impresiones": 21435,
+          "clics": 660,
+          "conversaciones": 42,
           "leads": 29,
           "interesados": 5,
           "calientes": 0,
@@ -309,6 +311,7 @@
             3,
             1,
             1,
+            3,
             0
           ]
         }
@@ -344,7 +347,8 @@
           "2 oct",
           "3 oct",
           "4 oct",
-          "5 oct"
+          "5 oct",
+          "6 oct"
         ],
         "tabita": [
           1,
@@ -447,14 +451,14 @@
         "pasos": [
           {
             "nombre": "Impresiones",
-            "valor": 148688,
-            "texto": "149 mil",
+            "valor": 153486,
+            "texto": "153 mil",
             "fuente": "Meta"
           },
           {
             "nombre": "Conversaciones",
-            "valor": 169,
-            "texto": "169",
+            "valor": 176,
+            "texto": "176",
             "fuente": "Meta"
           },
           {
