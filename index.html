@@ -633,7 +633,8 @@ if('serviceWorker' in navigator && !/claude\.ai$/.test(location.hostname)){windo
 let LIVE=null;
 fetch('live.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{LIVE=j;if(location.hash==='#live')show('live')}).catch(()=>{});
 buildNav();
-fetch('data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{DEFAULT=j;ALL=j;let local=null;try{local=localStorage.getItem('trezco-data')}catch(e){}if(local){try{const l=JSON.parse(local);if(Array.isArray(l.periodos))ALL=l}catch(e){}}let saved=null;try{saved=localStorage.getItem('trezco-period')}catch(e){}setPeriod(saved);show(location.hash.slice(1))}).catch(err=>{$('#views').innerHTML=`<section class="view"><div class="vh"><div class="k">Datos</div><h1>No se pudieron cargar los datos del reporte</h1><p>Vuelve a abrir la página. Si sigue igual, avísale a Rodrigo. (${esc(err.message)})</p></div></section>`});
+const loadData=(n)=>fetch('data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).catch(err=>{if(n>0)return new Promise(r=>setTimeout(r,1200)).then(()=>loadData(n-1));return caches?.match?caches.match('data.json').then(c=>c?c.json():Promise.reject(err)):Promise.reject(err)});
+loadData(2).then(j=>{DEFAULT=j;ALL=j;let local=null;try{local=localStorage.getItem('trezco-data')}catch(e){}if(local){try{const l=JSON.parse(local);if(Array.isArray(l.periodos))ALL=l}catch(e){}}let saved=null;try{saved=localStorage.getItem('trezco-period')}catch(e){}setPeriod(saved);show(location.hash.slice(1))}).catch(err=>{$('#views').innerHTML=`<section class="view"><div class="vh"><div class="k">Datos</div><h1>No se pudieron cargar los datos del reporte</h1><p>Revisa tu conexión a internet e inténtalo de nuevo. Si sigue igual, avísale a Rodrigo. (${esc(err.message)})</p><p><button class="btn pri" type="button" onclick="location.reload()">Reintentar</button></p></div></section>`});
 })();
 </script>
 </body></html>
