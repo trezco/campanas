@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-10-06T09:31-06:00",
+ "actualizado": "2026-10-06T18:24-06:00",
  "fuente": "Meta Ads · conversaciones de WhatsApp iniciadas (7 días)",
  "campanas": [
   {
    "id": "120251063801410373",
    "nombre": "Tábita",
    "cuenta": "Grupo Trezco",
-   "autorizado": 9000,
+   "autorizado": 18000,
    "estado": "ACTIVE",
-   "presupuestoDiario": 150.0,
+   "presupuestoDiario": 200.0,
    "acumulado": {
-    "gasto": 8312.74,
+    "gasto": 8411.4,
     "conversaciones": 73,
-    "impresiones": 87480,
-    "clics": 2290
+    "impresiones": 88387,
+    "clics": 2312
    },
    "dias": [
     {
@@ -53,17 +53,17 @@
     },
     {
      "fecha": "2026-10-05",
-     "gasto": 106.28,
+     "gasto": 106.33,
      "conversaciones": 1,
-     "impresiones": 888,
+     "impresiones": 892,
      "clics": 24
     },
     {
      "fecha": "2026-10-06",
-     "gasto": 40.6,
+     "gasto": 140.04,
      "conversaciones": 0,
-     "impresiones": 319,
-     "clics": 7
+     "impresiones": 1232,
+     "clics": 29
     }
    ]
   },
@@ -75,10 +75,10 @@
    "estado": "ACTIVE",
    "presupuestoDiario": 250.0,
    "acumulado": {
-    "gasto": 6503.03,
-    "conversaciones": 61,
-    "impresiones": 44571,
-    "clics": 1141
+    "gasto": 6665.8,
+    "conversaciones": 64,
+    "impresiones": 45648,
+    "clics": 1172
    },
    "dias": [
     {
@@ -118,17 +118,17 @@
     },
     {
      "fecha": "2026-10-05",
-     "gasto": 269.93,
+     "gasto": 270.09,
      "conversaciones": 3,
-     "impresiones": 2964,
+     "impresiones": 2972,
      "clics": 50
     },
     {
      "fecha": "2026-10-06",
-     "gasto": 81.69,
-     "conversaciones": 0,
-     "impresiones": 503,
-     "clics": 6
+     "gasto": 244.3,
+     "conversaciones": 3,
+     "impresiones": 1572,
+     "clics": 37
     }
    ]
   },
@@ -140,10 +140,10 @@
    "estado": "ACTIVE",
    "presupuestoDiario": 185.0,
    "acumulado": {
-    "gasto": 4826.22,
+    "gasto": 4926.35,
     "conversaciones": 42,
-    "impresiones": 21435,
-    "clics": 660
+    "impresiones": 21914,
+    "clics": 669
    },
    "dias": [
     {
@@ -183,17 +183,17 @@
     },
     {
      "fecha": "2026-10-05",
-     "gasto": 230.86,
+     "gasto": 231.46,
      "conversaciones": 3,
-     "impresiones": 698,
+     "impresiones": 699,
      "clics": 19
     },
     {
      "fecha": "2026-10-06",
-     "gasto": 37.0,
+     "gasto": 136.53,
      "conversaciones": 0,
-     "impresiones": 145,
-     "clics": 4
+     "impresiones": 623,
+     "clics": 13
     }
    ]
   }
