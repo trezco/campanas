@@ -4,19 +4,19 @@
   {
    "periodo": {
     "titulo": "Septiembre 2026",
-    "rango": "10 sep – 6 oct 2026",
-    "corte": "Martes 6 de octubre, 6:30 pm",
-    "actualizado": "2026-10-06T18:30:00-06:00",
+    "rango": "10 sep – 9 oct 2026",
+    "corte": "Viernes 9 de octubre, 9:30 am",
+    "actualizado": "2026-10-09T09:30:00-06:00",
     "preparo": "Rodrigo Avila"
    },
    "resumen": {
     "titular": "Atraer clientes funciona. El trabajo de octubre es convertirlos.",
-    "entrada": "Las campañas de Tábita, Ameka y Aurum generaron 184 conversaciones de WhatsApp a $111 cada una, 31% por debajo de la meta de $160. Con ese dinero se esperaban 125; llegaron 56 más. Después del primer mensaje el embudo se frena: tardamos 12.8 horas en contestar y solo 8 de 32 interesados tienen asesor.",
-    "paso": "Invertimos $20,401 de los $22,100 autorizados. 145 leads registrados en Odoo; 32 mostraron interés real y 4 son calientes.",
+    "entrada": "Las campañas de Tábita, Ameka y Aurum generaron 204 conversaciones de WhatsApp a $108 cada una, 32% por debajo de la meta de $160. Con ese dinero se esperaban 137; llegaron 67 más. Después del primer mensaje el embudo se frena: tardamos 12.8 horas en contestar y solo 8 de 32 interesados tienen asesor.",
+    "paso": "Invertimos $21,976 de los $31,100 autorizados. 145 leads registrados en Odoo; 32 mostraron interés real y 4 son calientes. Aurum cierra su prueba hoy y Ameka recibe $10,000 para octubre.",
     "significa": "La captación cumple su meta. La conversión no: ninguna cita realizada y la respuesta al primer mensaje tarda medio día en lugar de minutos.",
     "proponemos": "Medir octubre en citas: contestar en 5 minutos, asesor el mismo día para cada interesado, 15 citas realizadas y el primer apartado de campaña.",
     "bien": [
-     "Costo por conversación 31% abajo de la meta en los tres desarrollos, el mes completo.",
+     "Costo por conversación 32% abajo de la meta en los tres desarrollos, de principio a fin.",
      "Cada desarrollo trajo interesados, que era la condición de la prueba: Tábita 18, Ameka 9, Aurum 5.",
      "El Open House de Tábita reunió a 42 personas de 16 inmobiliarias con $398 de pauta.",
      "Todo quedó medido: 145 leads en Odoo con campaña, anuncio, calificación y etapa."
@@ -25,7 +25,7 @@
      "Respuesta en 12.8 horas, con casos de 36 y 42 horas en fin de semana. La meta es 5 minutos.",
      "El mensaje de «fuera de horario» sale a media tarde en días laborales.",
      "24 interesados sin asesor y ninguna cita realizada.",
-     "12 anuncios activos con 6 ideas distintas; el plan pedía 15. Un solo video lleva el 87% del gasto de Tábita."
+     "11 anuncios activos con 6 ideas distintas; el plan pedía 15. Un solo video lleva el 84% del gasto de Tábita."
     ],
     "hicimos": [
      "Lanzamos 3 campañas con tope de gasto por desarrollo y 13 anuncios en video grabados por el equipo.",
@@ -45,18 +45,18 @@
    "kpis": [
     {
      "label": "Invertido",
-     "valor": 20401,
+     "valor": 21976,
      "formato": "moneda",
-     "sub": "de $22,100 autorizados",
-     "delta": "91% del presupuesto",
+     "sub": "de $31,100 autorizados",
+     "delta": "71% del presupuesto",
      "tono": "ok"
     },
     {
      "label": "Costo por conversación",
-     "valor": 111,
+     "valor": 108,
      "formato": "moneda",
      "sub": "meta $160 o menos",
-     "delta": "31% mejor que la meta",
+     "delta": "32% mejor que la meta",
      "tono": "ok"
     },
     {
@@ -80,29 +80,29 @@
     {
      "n": 1,
      "nombre": "Inversión en pauta",
-     "valor": "$20,040",
-     "meta": "$22,100",
+     "valor": "$21,976",
+     "meta": "$31,100",
      "estado": "ok",
-     "etiqueta": "91%",
-     "lectura": "Incluye $398 del Open House. No incluye producción."
+     "etiqueta": "71%",
+     "lectura": "Incluye $398 del Open House y $295 de los $9,000 nuevos de Tábita. No incluye producción."
     },
     {
      "n": 2,
      "nombre": "Conversaciones de WhatsApp",
-     "valor": "181",
-     "meta": "≥ 125",
+     "valor": "204",
+     "meta": "≥ 137",
      "estado": "ok",
      "etiqueta": "Cumplida",
-     "lectura": "Meta = inversión entre $160. 176 de compradores y 5 del Open House."
+     "lectura": "Meta = inversión entre $160. 199 de compradores y 5 del Open House."
     },
     {
      "n": 3,
      "nombre": "Costo por conversación",
-     "valor": "$111",
+     "valor": "$108",
      "meta": "≤ $160",
      "estado": "ok",
      "etiqueta": "Cumplida",
-     "lectura": "Tábita $112, Ameka $107, Aurum $115."
+     "lectura": "Tábita $111, Ameka $98, Aurum $117."
     },
     {
      "n": 4,
@@ -110,8 +110,8 @@
      "valor": "145",
      "meta": "Todos",
      "estado": "ok",
-     "etiqueta": "82%",
-     "lectura": "145 de 176 conversaciones. Las de ayer y hoy aún no se registran; el resto no llegó a escribir."
+     "etiqueta": "73%",
+     "lectura": "145 de 199 conversaciones. Las del 6 al 9 oct aún no se registran; el resto no llegó a escribir."
     },
     {
      "n": 5,
@@ -120,7 +120,7 @@
      "meta": "≥ 1 por desarrollo",
      "estado": "ok",
      "etiqueta": "Cumplida",
-     "lectura": "4 calientes y 28 tibios. Costo por calificado: $593."
+     "lectura": "4 calientes y 28 tibios. Costo por calificado: $687."
     },
     {
      "n": 6,
@@ -153,9 +153,9 @@
    "adelantados": [
     {
      "nombre": "Anuncios activos",
-     "valor": "12",
+     "valor": "11",
      "de": "de 15",
-     "nota": "Meta del plan: mínimo 15. Son 6 ideas distintas, cada una en versión original y con precio."
+     "nota": "Activos hoy: Tábita 3, Ameka 4 y Aurum 4 (se apagan con la pausa). Son 6 ideas distintas, sumando el video de foráneos. Los 2 de amueblado están en pausa hasta cambiar la fecha."
     },
     {
      "nombre": "Interesados con asesor",
@@ -174,18 +174,18 @@
     {
      "id": "tabita",
      "nombre": "Tábita",
-     "invertido": 8809,
-     "autorizado": 9000,
-     "impresiones": 90670,
-     "clics": 2486,
-     "conversaciones": 78,
+     "invertido": 9295,
+     "autorizado": 18000,
+     "impresiones": 95586,
+     "clics": 2626,
+     "conversaciones": 84,
      "leads": 65,
      "interesados": 18,
      "calientes": 4,
      "tibios": 14,
      "frios": 37,
      "nocalifica": 10,
-     "nota": "Incluye el Open House ($398, 5 conversaciones). Tiene los 4 leads calientes y el departamento muestra. 6 oct: entran $9,000 nuevos, sube a $200/día y arranca la prueba de foráneos (CDMX, MTY, GDL, QRO) con $50/día.",
+     "nota": "Incluye el Open House ($398, 5 conversaciones). Autorizado: $9,000 de septiembre más $9,000 nuevos del 5 oct. Desde el 6 oct corre a $200/día con la prueba de foráneos (CDMX, MTY, GDL, QRO): 3 conversaciones con $173. Los dos videos de amueblado están en pausa hasta cambiar la fecha de la promoción.",
      "campana": "Tábita · WhatsApp",
      "estado": "Activa · $200/día",
      "tono": "mid",
@@ -216,26 +216,29 @@
       0,
       0,
       1,
+      1,
+      2,
+      3,
       0
      ]
     },
     {
      "id": "ameka",
      "nombre": "Ameka",
-     "invertido": 6666,
+     "invertido": 7281,
      "autorizado": 7500,
-     "impresiones": 45648,
-     "clics": 1172,
-     "conversaciones": 64,
+     "impresiones": 53611,
+     "clics": 1415,
+     "conversaciones": 74,
      "leads": 47,
      "interesados": 9,
      "calientes": 0,
      "tibios": 9,
      "frios": 34,
      "nocalifica": 4,
-     "nota": "La que más trae desde el 25 sep: 28 de las últimas 48 conversaciones. Las versiones con precio ya son casi todo lo que entra.",
+     "nota": "La que más trae: 22 conversaciones en los últimos 7 días a $80. Llega hoy a su tope de $7,500; entran $10,000 nuevos para seguir en octubre.",
      "campana": "Ameka · WhatsApp",
-     "estado": "Activa · tope el jue 8",
+     "estado": "Tope hoy",
      "tono": "ok",
      "serie": [
       0,
@@ -264,27 +267,30 @@
       2,
       1,
       3,
-      3
+      3,
+      4,
+      5,
+      1
      ]
     },
     {
      "id": "aurum",
      "nombre": "Aurum",
-     "invertido": 4926,
+     "invertido": 5400,
      "autorizado": 5600,
-     "impresiones": 21914,
-     "clics": 669,
-     "conversaciones": 42,
+     "impresiones": 23917,
+     "clics": 711,
+     "conversaciones": 46,
      "leads": 29,
      "interesados": 5,
      "calientes": 0,
      "tibios": 5,
      "frios": 15,
      "nocalifica": 9,
-     "nota": "El presupuesto más chico y un costo parejo todo el mes. 9 de 29 leads no califican: foráneos sin intención o renta.",
+     "nota": "Cierra la prueba con 46 conversaciones a $117, dentro de la meta todo el mes. Llega hoy a su tope de $5,600 y queda en pausa por un tiempo: no hay dinero nuevo por ahora.",
      "campana": "Aurum · WhatsApp",
-     "estado": "Activa · tope el vie 9",
-     "tono": "ok",
+     "estado": "En pausa hoy",
+     "tono": "mid",
      "serie": [
       0,
       3,
@@ -312,6 +318,9 @@
       1,
       1,
       3,
+      0,
+      2,
+      2,
       0
      ]
     }
@@ -348,7 +357,10 @@
      "3 oct",
      "4 oct",
      "5 oct",
-     "6 oct"
+     "6 oct",
+     "7 oct",
+     "8 oct",
+     "9 oct"
     ],
     "tabita": [
      1,
@@ -376,7 +388,10 @@
      0,
      0,
      0,
-     0,
+     1,
+     1,
+     2,
+     3,
      0
     ],
     "ameka": [
@@ -405,8 +420,11 @@
      4,
      2,
      1,
-     0,
-     3
+     3,
+     3,
+     4,
+     5,
+     1
     ],
     "aurum": [
      0,
@@ -434,7 +452,10 @@
      3,
      1,
      1,
+     3,
      0,
+     2,
+     2,
      0
     ],
     "eventos": [
@@ -451,21 +472,21 @@
       "texto": "6 oct · Tábita a $200/día"
      }
     ],
-    "nota": "El 22 sep se ajustó la segmentación para dejar de llegar a personas de paso por Mérida. El 25 sep el presupuesto diario de Tábita bajó de $450 a $100: desde entonces costó $176 por conversación contra $108 antes. El 6 oct, con el dinero nuevo, Tábita subió a $200 al día.",
+    "nota": "El 22 sep se ajustó la segmentación para dejar de llegar a personas de paso por Mérida. El 25 sep el presupuesto diario de Tábita bajó de $450 a $100. El 6 oct, con el dinero nuevo, subió a $200 al día y desde entonces junta 6 conversaciones en tres días completos. Hoy, 9 oct, va parcial.",
     "parcialUltimo": true
    },
    "embudo": {
     "pasos": [
      {
       "nombre": "Impresiones",
-      "valor": 153486,
-      "texto": "153 mil",
+      "valor": 170476,
+      "texto": "170 mil",
       "fuente": "Meta"
      },
      {
       "nombre": "Conversaciones",
-      "valor": 176,
-      "texto": "176",
+      "valor": 199,
+      "texto": "199",
       "fuente": "Meta"
      },
      {
@@ -570,52 +591,73 @@
      {
       "nombre": "DEPARTAMENTO · Video 2",
       "dev": "Tábita",
-      "invertido": 7107,
-      "conv": 65,
-      "estado": "Activo"
-     },
-     {
-      "nombre": "APARTAR · Video 2",
-      "dev": "Ameka",
-      "invertido": 3158,
-      "conv": 28,
+      "invertido": 7483,
+      "conv": 69,
       "estado": "Activo"
      },
      {
       "nombre": "QUEDAN · Video 2",
       "dev": "Aurum",
-      "invertido": 3003,
+      "invertido": 3450,
+      "conv": 32,
+      "estado": "Pausa con la campaña"
+     },
+     {
+      "nombre": "APARTAR · Video 2",
+      "dev": "Ameka",
+      "invertido": 3382,
       "conv": 29,
       "estado": "Activo"
      },
      {
       "nombre": "APARTAR · con precio",
       "dev": "Ameka",
-      "invertido": 1582,
-      "conv": 13,
+      "invertido": 1775,
+      "conv": 15,
       "estado": "Activo"
      },
      {
       "nombre": "PRECIO · Video 1",
       "dev": "Ameka",
-      "invertido": 1123,
-      "conv": 12,
+      "invertido": 1687,
+      "conv": 23,
       "estado": "Activo"
      },
      {
       "nombre": "RECORRIDO · con precio",
       "dev": "Aurum",
-      "invertido": 1049,
-      "conv": 7,
-      "estado": "Activo"
+      "invertido": 1339,
+      "conv": 11,
+      "estado": "Pausa con la campaña"
      },
      {
       "nombre": "AMUEBLADO · Video 1",
       "dev": "Tábita",
       "invertido": 473,
       "conv": 5,
-      "estado": "Actualizar fecha",
+      "estado": "En pausa · cambiar fecha",
       "alerta": true
+     },
+     {
+      "nombre": "DEPARTAMENTO · con precio",
+      "dev": "Tábita",
+      "invertido": 463,
+      "conv": 1,
+      "estado": "Activo"
+     },
+     {
+      "nombre": "RECORRIDO · Video 1",
+      "dev": "Aurum",
+      "invertido": 443,
+      "conv": 2,
+      "estado": "Pausa con la campaña"
+     },
+     {
+      "nombre": "PRECIO · con precio",
+      "dev": "Ameka",
+      "invertido": 437,
+      "conv": 7,
+      "estado": "Activo"
      },
      {
       "nombre": "Open House · Video cochinita",
@@ -625,46 +667,32 @@
       "estado": "Terminó 30 sep"
      },
      {
-      "nombre": "RECORRIDO · Video 1",
-      "dev": "Aurum",
-      "invertido": 395,
-      "conv": 2,
-      "estado": "Activo"
-     },
-     {
-      "nombre": "PRECIO · con precio",
-      "dev": "Ameka",
-      "invertido": 330,
-      "conv": 5,
-      "estado": "Activo"
-     },
-     {
-      "nombre": "DEPARTAMENTO · con precio",
-      "dev": "Tábita",
-      "invertido": 302,
-      "conv": 1,
-      "estado": "Activo"
-     },
-     {
       "nombre": "AMUEBLADO · con precio",
       "dev": "Tábita",
-      "invertido": 295,
+      "invertido": 307,
       "conv": 1,
-      "estado": "Actualizar fecha",
+      "estado": "En pausa · cambiar fecha",
       "alerta": true
+     },
+     {
+      "nombre": "MUDARSE A MÉRIDA · Foráneos",
+      "dev": "Tábita",
+      "invertido": 173,
+      "conv": 3,
+      "estado": "Prueba hasta 20 oct"
      },
      {
       "nombre": "QUEDAN · con precio",
       "dev": "Aurum",
-      "invertido": 155,
+      "invertido": 169,
       "conv": 1,
-      "estado": "Activo"
+      "estado": "Pausa con la campaña"
      }
     ],
     "aprendimos": [
      "Gana el dato, no la promesa. «Los números exactos», «cuántos quedan» y «la corrida financiera» superan a los recorridos y a los ganchos de curiosidad.",
-     "Un video concentra el 87% del gasto de Tábita. Es normal (1 de cada 20 anuncios resulta ganador), pero no hay reemplazo cuando se canse.",
-     "Los anuncios de amueblado mencionan el 30 de septiembre. La promoción se extiende: hay que editar el cierre con la nueva fecha antes de reactivar Tábita."
+     "Un video concentra el 84% del gasto de Tábita. Es normal (1 de cada 20 anuncios resulta ganador), pero no hay reemplazo cuando se canse: por eso los videos nuevos del martes 13.",
+     "Los anuncios de amueblado mencionan el 30 de septiembre y están en pausa. La promoción sigue todo octubre: se reactivan en cuanto el cierre lleve la nueva fecha."
     ],
     "ideal": [
      "Vertical 9:16, texto dentro de la zona segura, entre 15 y 30 segundos.",
@@ -679,9 +707,9 @@
      "titulo": "Por qué cada video tiene dos versiones",
      "texto": "El 22 de septiembre decidimos poner el precio, el enganche y la forma de pago («recurso propio o crédito bancario, no Infonavit») a la vista en el anuncio y en el mensaje precargado de WhatsApp. La razón: la mitad de las conversaciones eran de personas que no podían comprar o que no estaban en Mérida, y Katia perdía tiempo filtrándolas. En lugar de reemplazar los videos que ya funcionaban, cada uno se duplicó: la versión original sigue corriendo como control y la versión «con precio» compite contra ella con el mismo video y distinto texto. Así Meta reparte el gasto hacia la que rinde más y nosotros vemos cuál filtra mejor.",
      "resultado": [
-      "Ameka: las versiones con precio ya se llevan $1,912 y 18 conversaciones ($106); la original APARTAR sigue en $113. Empate en costo, pero los leads que entran por «con precio» llegan sabiendo cuánto cuesta.",
-      "Aurum: RECORRIDO con precio ($150, 7 conversaciones) supera a RECORRIDO original ($198, 2). QUEDAN original sigue siendo el ganador de la cuenta.",
-      "Tábita: las versiones con precio llevan $600 y 2 conversaciones; con el presupuesto recortado a $100 al día no hay base para juzgarlas todavía."
+      "Ameka: las versiones con precio llevan $2,212 y 22 conversaciones ($101); la original APARTAR va en $117. Empate en costo, pero quien entra por «con precio» ya sabe cuánto cuesta.",
+      "Aurum: RECORRIDO con precio ($122 por conversación, 11) superó a RECORRIDO original ($222, 2). QUEDAN original cerró como el ganador de la cuenta: 32 conversaciones a $108.",
+      "Tábita: las versiones con precio llevan $770 y 2 conversaciones; con $100 al día durante dos semanas no hubo base para juzgarlas."
      ]
     }
    },
@@ -786,8 +814,8 @@
     "escalones": [
      {
       "nombre": "Hoy",
-      "diario": "$935 al día",
-      "texto": "Cerca de $28,000 al mes entre las tres campañas, incluyendo la prueba de foráneos de Tábita. Se mantiene mientras arranca el seguimiento y entran los videos nuevos.",
+      "diario": "$530 al día",
+      "texto": "Tábita a $200 al día y Ameka cerca de $330 si sus $10,000 se reparten en octubre. Aurum queda en pausa. Se mantiene mientras arranca el seguimiento y entran los videos nuevos.",
       "actual": true
      },
      {
@@ -851,7 +879,7 @@
      "Umbral de 90 días: faltan por acordar los dos criterios, con qué resultado se sube el presupuesto y con cuál se replantea."
     ],
     "mercado": [
-     "Costo por lead de vivienda media en México: $80 a $300 (agencias). El nuestro: $131.",
+     "Costo por lead de vivienda media en México: $80 a $300 (agencias). El nuestro: $108 por conversación.",
      "Inversión típica por desarrollo: $15,000 a $50,000 al mes según el ticket. La nuestra: $5,600 a $9,000.",
      "En Mérida se venden más de 200 departamentos al mes en unos 180 a 207 proyectos, cerca de una unidad por proyecto al mes (Softec).",
      "Meta aprende mejor con unos 50 resultados por semana por campaña; hoy Tábita logra unas 22, Ameka 16 y Aurum 10."
@@ -903,28 +931,33 @@
       "fecha": "6 oct",
       "texto": "Reporte presentado a los socios. Con los $9,000 nuevos, Tábita sube a $200 al día y arranca la prueba de foráneos: el video «¿Te mudas a Mérida?» para Ciudad de México, Monterrey, Guadalajara y Querétaro, con $50 al día hasta el 20 de octubre.",
       "tipo": "campana"
+     },
+     {
+      "fecha": "8 oct",
+      "texto": "Se confirman $10,000 nuevos para Ameka en octubre. Aurum no recibe dinero nuevo por ahora.",
+      "tipo": "presupuesto"
      }
     ],
     "sigue": [
      {
       "fecha": "Mié 7",
-      "texto": "Videos de amueblado con la nueva fecha. Incentivo de octubre definido para Ameka y Aurum. Katia recibe la respuesta rápida para compradores a distancia.",
-      "tipo": "campana",
-      "hoy": true
-     },
-     {
-      "fecha": "Jue 8",
-      "texto": "Ameka y Aurum llegan a su tope: confirmar monto y fecha del depósito nuevo para que no se apaguen.",
-      "tipo": "presupuesto"
-     },
-     {
-      "fecha": "Vie 9",
-      "texto": "Rodaje de los primeros videos nuevos. Si el depósito ya entró, Ameka y Aurum siguen sin pausa.",
+      "texto": "Videos de amueblado con la nueva fecha (la promoción sigue todo octubre). Incentivo de octubre para Ameka. Katia recibe la respuesta rápida para compradores a distancia.",
       "tipo": "campana"
      },
      {
+      "fecha": "Vie 9",
+      "texto": "Entran los $10,000 de Ameka y se aprueba su plan de octubre. Aurum llega a su tope de $5,600 y queda en pausa por un tiempo.",
+      "tipo": "presupuesto",
+      "hoy": true
+     },
+     {
       "fecha": "Lun 12",
-      "texto": "Salen 2 videos nuevos por desarrollo. Revisión semanal: si Tábita junta 6+ conversaciones en la semana, sube a $345 al día. Chequeo de la prueba de foráneos.",
+      "texto": "Revisión semanal y chequeo de la prueba de foráneos (alarma si pasa de $300 por conversación).",
+      "tipo": "campana"
+     },
+     {
+      "fecha": "Mar 13",
+      "texto": "Suben los videos nuevos de Tábita en un solo lote. Con ellos se decide si Tábita sube a cerca de $345 al día.",
       "tipo": "campana"
      },
      {
@@ -1000,8 +1033,8 @@
      },
      {
       "que": "Nueva fecha de la promoción de amueblado de Tábita",
-      "detalle": "Para editar los videos y los mensajes de Katia.",
-      "cuando": "Mié 7 oct"
+      "detalle": "Ya se sabe: todo octubre. Falta editar el cierre de los dos videos para reactivarlos.",
+      "cuando": "Esta semana"
      },
      {
       "que": "Un incentivo real para Ameka y Aurum que venza el 31 de octubre",
@@ -1010,7 +1043,7 @@
      },
      {
       "que": "Presupuesto de octubre confirmado por desarrollo",
-      "detalle": "Monto y fecha de depósito de Ameka y Aurum. Tábita ya está en mano.",
+      "detalle": "Ameka: $10,000 confirmados, entran hoy. Tábita: en mano. Aurum: en pausa hasta nuevo aviso.",
       "cuando": "Vie 9 oct"
      },
      {
