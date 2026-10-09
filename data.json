@@ -5,14 +5,14 @@
    "periodo": {
     "titulo": "Septiembre 2026",
     "rango": "10 sep – 9 oct 2026",
-    "corte": "Viernes 9 de octubre, 9:30 am",
-    "actualizado": "2026-10-09T09:30:00-06:00",
+    "corte": "Viernes 9 de octubre, 10:45 am",
+    "actualizado": "2026-10-09T10:45:00-06:00",
     "preparo": "Rodrigo Avila"
    },
    "resumen": {
     "titular": "Atraer clientes funciona. El trabajo de octubre es convertirlos.",
     "entrada": "Las campañas de Tábita, Ameka y Aurum generaron 204 conversaciones de WhatsApp a $108 cada una, 32% por debajo de la meta de $160. Con ese dinero se esperaban 137; llegaron 67 más. Después del primer mensaje el embudo se frena: tardamos 12.8 horas en contestar y solo 8 de 32 interesados tienen asesor.",
-    "paso": "Invertimos $21,976 de los $31,100 autorizados. 145 leads registrados en Odoo; 32 mostraron interés real y 4 son calientes. Aurum cierra su prueba hoy y Ameka recibe $10,000 para octubre.",
+    "paso": "Invertimos $21,976 de los $31,100 autorizados. 171 leads registrados en Odoo; 32 mostraron interés real y 4 son calientes. Aurum cierra su prueba hoy y Ameka recibe $10,000 para octubre.",
     "significa": "La captación cumple su meta. La conversión no: ninguna cita realizada y la respuesta al primer mensaje tarda medio día en lugar de minutos.",
     "proponemos": "Medir octubre en citas: contestar en 5 minutos, asesor el mismo día para cada interesado, 15 citas realizadas y el primer apartado de campaña.",
     "bien": [
@@ -30,7 +30,7 @@
     "hicimos": [
      "Lanzamos 3 campañas con tope de gasto por desarrollo y 13 anuncios en video grabados por el equipo.",
      "Cada anuncio cierra con una palabra clave distinta: sabemos de qué video viene cada lead.",
-     "Registramos los 145 leads en Odoo con campaña, calificación, etapa y asesor.",
+     "Registramos los 171 leads en Odoo con campaña, etapa y asesor; 145 ya calificados.",
      "Medimos por primera vez el tiempo de respuesta, chat por chat.",
      "Reunimos a 42 asesores de 16 inmobiliarias en el Open House de Tábita."
     ],
@@ -63,7 +63,7 @@
      "label": "Interesados",
      "valor": 32,
      "formato": "entero",
-     "sub": "de 145 leads en Odoo",
+     "sub": "de 171 leads en Odoo",
      "delta": "24 sin asesor",
      "tono": "bad"
     },
@@ -107,11 +107,11 @@
     {
      "n": 4,
      "nombre": "Leads registrados en Odoo",
-     "valor": "145",
+     "valor": "171",
      "meta": "Todos",
      "estado": "ok",
-     "etiqueta": "73%",
-     "lectura": "145 de 199 conversaciones. Las del 6 al 9 oct aún no se registran; el resto no llegó a escribir."
+     "etiqueta": "86%",
+     "lectura": "171 de 199 conversaciones. Los 26 del 6 al 9 oct se registraron sin calificar porque el historial de WhatsApp no estaba disponible; el resto no llegó a escribir."
     },
     {
      "n": 5,
@@ -179,7 +179,7 @@
      "impresiones": 95586,
      "clics": 2626,
      "conversaciones": 84,
-     "leads": 65,
+     "leads": 71,
      "interesados": 18,
      "calientes": 4,
      "tibios": 14,
@@ -230,7 +230,7 @@
      "impresiones": 53611,
      "clics": 1415,
      "conversaciones": 74,
-     "leads": 47,
+     "leads": 55,
      "interesados": 9,
      "calientes": 0,
      "tibios": 9,
@@ -281,7 +281,7 @@
      "impresiones": 23917,
      "clics": 711,
      "conversaciones": 46,
-     "leads": 29,
+     "leads": 31,
      "interesados": 5,
      "calientes": 0,
      "tibios": 5,
@@ -326,8 +326,8 @@
     }
    ],
    "sinDesarrollo": {
-    "leads": 4,
-    "nota": "Llegaron por anuncio sin palabra clave."
+    "leads": 14,
+    "nota": "Llegaron por anuncio sin palabra clave visible. 10 de ellos son del 6 al 9 oct, registrados sin calificar."
    },
    "diario": {
     "dias": [
@@ -491,8 +491,8 @@
      },
      {
       "nombre": "Leads en Odoo",
-      "valor": 145,
-      "texto": "145",
+      "valor": 171,
+      "texto": "171",
       "fuente": "Odoo"
      },
      {
@@ -936,6 +936,11 @@
       "fecha": "8 oct",
       "texto": "Se confirman $10,000 nuevos para Ameka en octubre. Aurum no recibe dinero nuevo por ahora.",
       "tipo": "presupuesto"
+     },
+     {
+      "fecha": "9 oct",
+      "texto": "26 conversaciones del 6 al 9 oct registradas en Odoo. Todos los chats de clientes quedaron contestados.",
+      "tipo": "operacion"
      }
     ],
     "sigue": [
