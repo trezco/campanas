@@ -12,7 +12,7 @@ import json, sys, argparse, datetime, zoneinfo
 
 CAMPANAS = [
   {"id":"120251063801410373","nombre":"Tábita","cuenta":"Grupo Trezco","autorizado":18000},
-  {"id":"120251063806180373","nombre":"Ameka","cuenta":"Grupo Trezco","autorizado":7500},
+  {"id":"120251063806180373","nombre":"Ameka","cuenta":"Grupo Trezco","autorizado":17500},
   {"id":"120251277642690072","nombre":"Aurum","cuenta":"AURUM APARTMENTS","autorizado":5600},
 ]
 
