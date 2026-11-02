@@ -1,6 +1,6 @@
 // Trezco Campañas · service worker: la app abre sin red con la última versión vista; los datos se refrescan cuando hay conexión.
-const V='trezco-v8';
-const SHELL=['./','./index.html','./data.json','./live.json','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png'];
+const V='trezco-v9';
+const SHELL=['./','./index.html','./data.json','./live.json','./leads.json','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==V).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(u.origin!==location.origin)return;

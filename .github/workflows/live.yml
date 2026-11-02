@@ -1,4 +1,4 @@
-name: Actualizar Live (Meta)
+name: Actualizar Live (Meta + Odoo)
 on:
   schedule:
     - cron: '17 */3 * * *'   # cada 3 horas
@@ -16,9 +16,15 @@ jobs:
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
         run: python3 scripts/fetch_live.py
+      - name: Leer Odoo y regenerar leads.json
+        env:
+          ODOO_LOGIN: ${{ secrets.ODOO_LOGIN }}
+          ODOO_API_KEY: ${{ secrets.ODOO_API_KEY }}
+        run: |
+          if [ -n "$ODOO_API_KEY" ]; then python3 scripts/fetch_odoo.py; else echo "Sin ODOO_API_KEY, se omite"; fi
       - name: Publicar si cambió
         run: |
           git config user.name "trezco-bot"
           git config user.email "rodrigo.trezco@gmail.com"
-          git add live.json
+          git add live.json leads.json
           git diff --cached --quiet || (git commit -m "Live: actualización automática" && git push)
