@@ -1258,6 +1258,1163 @@
      }
     ]
    }
+  },
+  {
+   "id": "2026-10",
+   "periodo": {
+    "titulo": "Octubre 2026 · avance",
+    "rango": "10 oct – 1 nov 2026",
+    "corte": "Lunes 2 de noviembre, 9:30 am",
+    "actualizado": "2026-11-02T09:30:00-06:00",
+    "preparo": "Rodrigo Avila"
+   },
+   "titulos": {
+    "desarrollos": [
+     "Ameka trae más conversaciones; por interesado, los dos cuestan casi lo mismo",
+     "Cada desarrollo tiene su propio presupuesto y no se mezclan. Orden por costo por interesado, de menor a mayor. Aurum quedó en pausa desde el 10 de octubre."
+    ],
+    "embudo": [
+     "El embudo sigue roto en el mismo lugar: del interés a la cita",
+     "De la conversación en adelante, cada paso con su número real. 16 de los 100 leads de anuncios muestran interés y ninguno tiene una cita registrada en Odoo."
+    ]
+   },
+   "resumen": {
+    "titular": "Más conversaciones y más baratas. Las citas de campaña siguen sin aparecer.",
+    "chips": [
+     [
+      "16 interesados",
+      "cy"
+     ],
+     [
+      "0 citas de campaña",
+      "bad"
+     ]
+    ],
+    "entrada": "Del 10 de octubre al 1 de noviembre las campañas generaron 132 conversaciones de WhatsApp a $110 cada una, 31% por debajo de la meta de $160. En Odoo hay 109 leads nuevos; 16 de los que vienen de anuncios muestran interés y ninguno llegó a cita.",
+    "paso": "Invertimos $14,557 y llegaron 132 conversaciones de WhatsApp a $110 cada una. En Odoo registramos 109 leads hasta el 29 de octubre (100 de anuncios); faltan unas 13 conversaciones del 30 de octubre al 1 de noviembre. 16 leads de anuncios muestran interés real.",
+    "significa": "La captación cumple de sobra y la última semana fue la mejor del periodo: 49 conversaciones a $94. La conversión no avanza: ningún lead de campaña tiene cita registrada y las 3 citas del mes vienen de asesores externos.",
+    "proponemos": "Medir noviembre en citas de campaña: registrar cada cita en Odoo, llamar esta semana a los 16 interesados, volver a medir el tiempo de respuesta y confirmar a tiempo el dinero de Tábita (5 nov) y Ameka (10 nov).",
+    "bien": [
+     "Costo por conversación de $110, 31% abajo de la meta de $160.",
+     "Ameka: 82 conversaciones a $89, su mejor periodo desde el arranque.",
+     "La prueba de foráneos se quedó: 12 conversaciones a $102 en el periodo y $57 en la última semana.",
+     "Dos eventos para asesores con $778 de pauta; 3 citas con asesores externos registradas."
+    ],
+    "corregir": [
+     "Ningún lead de campaña tiene cita registrada en Odoo; la meta de octubre era 15 citas realizadas.",
+     "El tiempo de respuesta no se ha vuelto a medir desde el 5 de octubre.",
+     "Solo 2 de los 16 interesados tienen asesor de piso asignado.",
+     "Aurum sigue en pausa: su arranque espera las fichas de depósito y el lote de videos de noviembre."
+    ],
+    "hicimos": [
+     "Ameka recibió $10,000 el 10 de octubre y el ritmo de cada campaña se ajustó para que su dinero llegue exacto a su fecha de cierre.",
+     "Subimos anuncios nuevos: PAGOS y PERFIL en Ameka, DEPARTAMENTO y AMUEBLADO sin fecha en Tábita.",
+     "La prueba de foráneos (CDMX, Monterrey, Guadalajara y Querétaro) pasó su revisión del 19 de octubre y subió a $70 al día.",
+     "Dos eventos para asesores: Costco Event en Ameka (14 oct) y Cochinita en Tábita (28 oct), con el depa muestra de 2 recámaras.",
+     "Registramos 109 leads en Odoo en tres corridas (15, 19 y 29 oct), con desarrollo, anuncio y calificación.",
+     "Ocultamos 18 comentarios de burla en los anuncios de Ameka."
+    ],
+    "mejoraremos": [
+     "Registrar cada cita en Odoo el mismo día; sin ese dato no se mide lo que importa.",
+     "Llamar esta semana a los 16 interesados y darle asesor de piso a cada uno.",
+     "Volver a medir el tiempo de respuesta con los chats de octubre.",
+     "Arrancar Aurum con el lote de noviembre en cuanto estén las fichas.",
+     "Renovar los videos de Tábita para Mérida: DEPARTAMENTO v3 cuesta $175 por conversación."
+    ]
+   },
+   "kpis": [
+    {
+     "label": "Invertido",
+     "valor": 14557,
+     "formato": "moneda",
+     "sub": "10 oct – 1 nov · Tábita, Ameka y Aurum",
+     "delta": "A ritmo de sus fechas de cierre",
+     "tono": "ok"
+    },
+    {
+     "label": "Costo por conversación",
+     "valor": 110,
+     "formato": "moneda",
+     "sub": "meta $160 o menos",
+     "delta": "31% mejor que la meta",
+     "tono": "ok"
+    },
+    {
+     "label": "Interesados",
+     "valor": 16,
+     "formato": "entero",
+     "sub": "de 100 leads de anuncios en Odoo",
+     "delta": "2 con asesor de piso",
+     "tono": "bad"
+    },
+    {
+     "label": "Citas de campaña",
+     "valor": 0,
+     "formato": "entero",
+     "sub": "meta de octubre: 15 realizadas",
+     "delta": "Prioridad de noviembre",
+     "tono": "bad"
+    }
+   ],
+   "ocho": [
+    {
+     "n": 1,
+     "nombre": "Inversión en pauta",
+     "valor": "$14,557",
+     "meta": "$18,606 disponibles",
+     "estado": "ok",
+     "etiqueta": "78%",
+     "lectura": "Tábita $7,144 y Ameka $7,316, con los dos eventos para asesores; Aurum $97 al tocar su tope el 10 oct. Al ritmo actual Tábita cierra el 5 nov y Ameka el 10 nov."
+    },
+    {
+     "n": 2,
+     "nombre": "Conversaciones de WhatsApp",
+     "valor": "132",
+     "meta": "≥ 91",
+     "estado": "ok",
+     "etiqueta": "Cumplida",
+     "lectura": "Meta = inversión entre $160. 126 de compradores y 6 de asesores en los eventos."
+    },
+    {
+     "n": 3,
+     "nombre": "Costo por conversación",
+     "valor": "$110",
+     "meta": "≤ $160",
+     "estado": "ok",
+     "etiqueta": "Cumplida",
+     "lectura": "Tábita $143, Ameka $89. Última semana (26 oct – 1 nov): $94."
+    },
+    {
+     "n": 4,
+     "nombre": "Leads registrados en Odoo",
+     "valor": "109",
+     "meta": "Todos",
+     "estado": "mid",
+     "etiqueta": "Al 29 oct",
+     "lectura": "100 de anuncios, 5 de asesores externos y 4 orgánicos. Faltan por registrar unas 13 conversaciones del 30 oct al 1 nov."
+    },
+    {
+     "n": 5,
+     "nombre": "Leads calificados",
+     "valor": "16",
+     "meta": "≥ 1 por desarrollo",
+     "estado": "ok",
+     "etiqueta": "Cumplida",
+     "lectura": "1 caliente y 15 tibios entre los leads de anuncios: Tábita 7, Ameka 7, Aurum 1 y sin palabra clave 1. Costo por interesado: $910."
+    },
+    {
+     "n": 6,
+     "nombre": "Citas realizadas",
+     "valor": "Sin registro",
+     "meta": "Octubre: 15",
+     "estado": "bad",
+     "etiqueta": "Sin avance",
+     "lectura": "En Odoo hay 3 citas agendadas, las tres de asesores externos (canal B2B). Ningún lead de campaña llegó a la etapa de cita."
+    },
+    {
+     "n": 7,
+     "nombre": "Ventas y comisión",
+     "valor": "0",
+     "meta": "Umbral 90 días",
+     "estado": "mid",
+     "etiqueta": "En plazo",
+     "lectura": "La primera cohorte (10 sep) cumple 90 días el 9 de diciembre. Techo: 4% del valor, ~$90,000 por venta."
+    },
+    {
+     "n": 8,
+     "nombre": "Tiempo mediano de primera respuesta",
+     "valor": "Sin medir",
+     "meta": "≤ 5 min",
+     "estado": "bad",
+     "etiqueta": "Pendiente",
+     "lectura": "La última medición (25 sep – 5 oct) dio 12.8 h. Se repite esta semana con los chats de octubre."
+    }
+   ],
+   "adelantados": [
+    {
+     "nombre": "Anuncios activos",
+     "valor": "9",
+     "de": "de 15",
+     "nota": "Compradores, activos hoy: Tábita 3 (DEPARTAMENTO Video 2, DEPARTAMENTO v3 y MUDARSE A MÉRIDA) y Ameka 6 (PAGOS, PERFIL, PRECIO, APARTAR y dos versiones con precio). Aurum: 0. AMUEBLADO sin fecha quedó en pausa tras gastar $426 sin conversaciones."
+    },
+    {
+     "nombre": "Interesados con asesor",
+     "valor": "2",
+     "de": "de 16",
+     "nota": "Jesús Ponce 1 y Esteban de la Guerra 1. Los otros 14 los sigue Rodrigo por WhatsApp. Meta: todos el mismo día."
+    },
+    {
+     "nombre": "Calidad de eventos (EMQ)",
+     "valor": "—",
+     "de": "",
+     "nota": "Desde el 12 oct WhatsApp Business comparte la actividad de clientes con Meta. Falta usar la etiqueta «Lead» de forma constante para optimizar por ella."
+    }
+   ],
+   "desarrollos": [
+    {
+     "id": "tabita",
+     "nombre": "Tábita",
+     "invertido": 7144,
+     "autorizado": 8542,
+     "impresiones": 55744,
+     "clics": 1718,
+     "conversaciones": 50,
+     "leads": 37,
+     "interesados": 7,
+     "calientes": 1,
+     "tibios": 6,
+     "frios": 27,
+     "nocalifica": 3,
+     "nota": "Incluye el evento Cochinita ($394, 3 conversaciones). Mérida: DEPARTAMENTO v3 lleva $2,973 y 17 conversaciones ($175). Foráneos: 12 a $102, y 7 a $57 en la última semana. Corre a $240 al día hasta el 5 nov. Disponible = lo que quedaba de sus $18,000 al 10 oct.",
+     "campana": "Tábita · WhatsApp",
+     "estado": "Activa · $240/día",
+     "tono": "mid",
+     "serie": [
+      1,
+      3,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      10,
+      6,
+      4,
+      0,
+      0,
+      3
+     ]
+    },
+    {
+     "id": "ameka",
+     "nombre": "Ameka",
+     "invertido": 7316,
+     "autorizado": 10065,
+     "impresiones": 73133,
+     "clics": 3917,
+     "conversaciones": 82,
+     "leads": 44,
+     "interesados": 7,
+     "calientes": 0,
+     "tibios": 7,
+     "frios": 32,
+     "nocalifica": 5,
+     "nota": "Incluye el Costco Event ($384, 3 conversaciones). PAGOS trae 36 conversaciones a $87 y PERFIL 24 a $82. Corre a $315 al día hasta el 10 nov. Disponible = sus $10,000 del 10 oct más lo que quedaba de septiembre.",
+     "campana": "Ameka · WhatsApp",
+     "estado": "Activa · $315/día",
+     "tono": "ok",
+     "serie": [
+      0,
+      0,
+      9,
+      1,
+      7,
+      2,
+      6,
+      6,
+      1,
+      1,
+      11,
+      4,
+      1,
+      0,
+      3,
+      5,
+      5,
+      2,
+      5,
+      3,
+      3,
+      5,
+      2
+     ]
+    }
+   ],
+   "sinDesarrollo": {
+    "leads": 16,
+    "nota": "Llegaron por anuncio sin palabra clave visible. Aparte, 3 leads de Aurum que escribieron por anuncios anteriores."
+   },
+   "diario": {
+    "dias": [
+     "10 oct",
+     "11 oct",
+     "12 oct",
+     "13 oct",
+     "14 oct",
+     "15 oct",
+     "16 oct",
+     "17 oct",
+     "18 oct",
+     "19 oct",
+     "20 oct",
+     "21 oct",
+     "22 oct",
+     "23 oct",
+     "24 oct",
+     "25 oct",
+     "26 oct",
+     "27 oct",
+     "28 oct",
+     "29 oct",
+     "30 oct",
+     "31 oct",
+     "1 nov"
+    ],
+    "tabita": [
+     1,
+     3,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     1,
+     10,
+     6,
+     4,
+     0,
+     0,
+     3
+    ],
+    "ameka": [
+     0,
+     0,
+     9,
+     1,
+     7,
+     2,
+     6,
+     6,
+     1,
+     1,
+     11,
+     4,
+     1,
+     0,
+     3,
+     5,
+     5,
+     2,
+     5,
+     3,
+     3,
+     5,
+     2
+    ],
+    "eventos": [
+     {
+      "dia": 2,
+      "texto": "12 oct · anuncios nuevos"
+     },
+     {
+      "dia": 9,
+      "texto": "19 oct · Foráneos a $70"
+     },
+     {
+      "dia": 16,
+      "texto": "26 oct · Cochinita"
+     },
+     {
+      "dia": 19,
+      "texto": "29 oct · Tábita a $240"
+     }
+    ],
+    "nota": "El 12 oct entraron PAGOS y PERFIL en Ameka y las campañas tomaron fecha de cierre. El 19 oct la prueba de foráneos se quedó y subió a $70 al día. El 27 oct, con el evento Cochinita al aire, Tábita tuvo su mejor día del periodo (10 conversaciones). El 29 oct Tábita bajó a $240 al día para no pasar de su dinero. Incluye las campañas de eventos.",
+    "parcialUltimo": false
+   },
+   "embudo": {
+    "pasos": [
+     {
+      "nombre": "Impresiones",
+      "valor": 125292,
+      "texto": "125 mil",
+      "fuente": "Meta"
+     },
+     {
+      "nombre": "Conversaciones",
+      "valor": 126,
+      "texto": "126",
+      "fuente": "Meta"
+     },
+     {
+      "nombre": "Leads en Odoo",
+      "valor": 100,
+      "texto": "100",
+      "fuente": "Odoo"
+     },
+     {
+      "nombre": "Interesados",
+      "valor": 16,
+      "texto": "16",
+      "fuente": "Odoo"
+     },
+     {
+      "nombre": "Con asesor",
+      "valor": 2,
+      "texto": "2",
+      "fuente": "Odoo"
+     },
+     {
+      "nombre": "Citas realizadas",
+      "valor": 0,
+      "texto": "0",
+      "fuente": "Odoo"
+     },
+     {
+      "nombre": "Apartados",
+      "valor": 0,
+      "texto": "0",
+      "fuente": "Odoo"
+     }
+    ],
+    "etapas": [
+     {
+      "nombre": "Contactados",
+      "valor": 71
+     },
+     {
+      "nombre": "Primer mensaje",
+      "valor": 1
+     },
+     {
+      "nombre": "Primera llamada",
+      "valor": 0
+     },
+     {
+      "nombre": "Nuevo lead",
+      "valor": 18
+     },
+     {
+      "nombre": "Cita agendada",
+      "valor": 0
+     },
+     {
+      "nombre": "Perdido",
+      "valor": 10
+     }
+    ],
+    "notaEtapas": "Solo leads de anuncios registrados del 15 al 29 oct. Los 10 perdidos: 6 sin perfil de compra, 1 con Infonavit, 1 busca renta, 1 sin capacidad de pago y 1 sin interés. 18 siguen en «Nuevo lead»; uno de Monterrey aparece como nunca contestado.",
+    "origen": "45 de los 100 leads de anuncios escriben desde fuera de Yucatán: Campeche, Tabasco, Quintana Roo, Chiapas, CDMX y otros estados. 10 llegaron por el video de foráneos de Tábita.",
+    "palabras": "Palabras clave activas: DEPARTAMENTO y MUDARSE A MÉRIDA (Tábita); PAGOS, PERFIL, PRECIO y APARTAR (Ameka); COSTCO y COCHINITA para los eventos. 16 leads llegaron sin palabra clave."
+   },
+   "respuesta": {
+    "mediana": "12.8 h",
+    "menosUnaHora": "6 de 29",
+    "maximo": "42 h",
+    "aAsesor": "1 de 31",
+    "buckets": [
+     {
+      "nombre": "Menos de 1 h",
+      "valor": 6
+     },
+     {
+      "nombre": "1 a 6 h",
+      "valor": 4
+     },
+     {
+      "nombre": "6 a 12 h",
+      "valor": 4
+     },
+     {
+      "nombre": "12 a 24 h",
+      "valor": 13
+     },
+     {
+      "nombre": "Más de 24 h",
+      "valor": 2
+     }
+    ],
+    "hallazgos": [
+     "Lo que llega de tarde, noche o fin de semana espera al siguiente día hábil. Las respuestas salen en bloque cerca de las 9:30 am.",
+     "El mensaje de «fuera de horario» se disparó el viernes 2 de octubre a las 2:05 pm y a las 3:23 pm. El cliente lee que no hay nadie a media tarde. Es una configuración de WhatsApp Business.",
+     "Un cliente pidió información cuatro veces el mismo día antes de pasar a un asesor; fue el único de los 31 nuevos que llegó a uno.",
+     "Casi todos reciben la misma ficha y nadie da el siguiente paso: llamada del asesor y cita con dos horarios a elegir."
+    ],
+    "referencia": "Contestar en la primera hora multiplica por 7 la probabilidad de calificar al prospecto (Harvard Business Review, 2011).",
+    "titulo": "Sin medición nueva. La última dio 12.8 horas.",
+    "intro": "En octubre no se volvió a medir. Abajo está la medición del 25 de septiembre al 5 de octubre; esta semana se repite con los chats de octubre.",
+    "sub": "29 leads con respuesta · medición del 25 sep al 5 oct"
+   },
+   "anuncios": {
+    "titulo": "Tres anuncios trajeron 73 de las 132 conversaciones",
+    "intro": "PAGOS y PERFIL de Ameka entraron el 12 de octubre y en tres semanas ya son los que más traen. En Tábita, el video de foráneos rinde mejor que los de Mérida.",
+    "lista": [
+     {
+      "nombre": "PAGOS · Video",
+      "dev": "Ameka",
+      "invertido": 3116,
+      "conv": 36,
+      "estado": "Activo"
+     },
+     {
+      "nombre": "PERFIL · texto positivo",
+      "dev": "Ameka",
+      "invertido": 1592,
+      "conv": 20,
+      "estado": "Activo"
+     },
+     {
+      "nombre": "DEPARTAMENTO · v3 sin fecha",
+      "dev": "Tábita",
+      "invertido": 2973,
+      "conv": 17,
+      "estado": "Activo · $175 por conversación",
+      "alerta": true
+     },
+     {
+      "nombre": "DEPARTAMENTO · Video 2",
+      "dev": "Tábita",
+      "invertido": 1911,
+      "conv": 16,
+      "estado": "Activo"
+     },
+     {
+      "nombre": "MUDARSE A MÉRIDA · Foráneos",
+      "dev": "Tábita",
+      "invertido": 1219,
+      "conv": 12,
+      "estado": "Activo · $70/día"
+     },
+     {
+      "nombre": "APARTAR · Video 2",
+      "dev": "Ameka",
+      "invertido": 485,
+      "conv": 8,
+      "estado": "Activo"
+     },
+     {
+      "nombre": "PRECIO · Video 1",
+      "dev": "Ameka",
+      "invertido": 761,
+      "conv": 7,
+      "estado": "Activo"
+     },
+     {
+      "nombre": "PERFIL · Video",
+      "dev": "Ameka",
+      "invertido": 370,
+      "conv": 4,
+      "estado": "En pausa"
+     },
+     {
+      "nombre": "Cochinita 28 oct",
+      "dev": "Evento",
+      "invertido": 394,
+      "conv": 3,
+      "estado": "Terminó 28 oct"
+     },
+     {
+      "nombre": "Costco Event",
+      "dev": "Evento",
+      "invertido": 384,
+      "conv": 3,
+      "estado": "Terminó 14 oct"
+     },
+     {
+      "nombre": "APARTAR · v2 precio",
+      "dev": "Ameka",
+      "invertido": 352,
+      "conv": 3,
+      "estado": "Activo"
+     },
+     {
+      "nombre": "DEPARTAMENTO · v2 precio",
+      "dev": "Tábita",
+      "invertido": 221,
+      "conv": 2,
+      "estado": "En pausa"
+     },
+     {
+      "nombre": "PRECIO · v2 precio",
+      "dev": "Ameka",
+      "invertido": 255,
+      "conv": 1,
+      "estado": "Activo"
+     }
+    ],
+    "noConv": [
+     {
+      "nombre": "AMUEBLADO · Oct sin fecha",
+      "dev": "Tábita",
+      "invertido": 426,
+      "estado": "En pausa · 0 conversaciones"
+     }
+    ],
+    "aprendimos": [
+     "En Ameka gana el dato de pago: PAGOS a $87 y PERFIL a $82 por conversación.",
+     "El público de fuera de Mérida contesta más barato: MUDARSE A MÉRIDA a $102 por conversación en el periodo, contra $158 de los anuncios de Tábita para Mérida. En la última semana, $57 contra $115.",
+     "En Tábita, el video original DEPARTAMENTO 2 ($119) le gana a la versión v3 sin fecha ($175), que se llevó el mayor gasto.",
+     "AMUEBLADO sin fecha gastó $426 sin una sola conversación y quedó en pausa."
+    ],
+    "ideal": [
+     "Vertical 9:16, texto dentro de la zona segura, entre 15 y 30 segundos.",
+     "En los primeros 3 segundos, la mejor toma y un gancho que diga producto y zona.",
+     "Una persona a cámara o voz en off, siempre con subtítulos.",
+     "En pantalla: precio desde, enganche o mensualidad, ubicación y entrega.",
+     "Una sola oferta y una sola acción: escríbenos por WhatsApp.",
+     "Cuatro ideas distintas por campaña, no cuatro versiones de la misma, y al menos una imagen fija para comparar."
+    ],
+    "idealFuente": "Meta reporta 56% más clics en video vertical con sonido y un elemento humano (2024). El 47% del valor de un video se entrega en los primeros 3 segundos (Facebook, 2017)."
+   },
+   "eventos": {
+    "intro": "Los dos eventos de octubre fueron para asesores. Falta registrar la asistencia; abajo está lo que dio la campaña que invitó a cada uno.",
+    "proximo": null,
+    "lista": [
+     {
+      "id": "cochinita-28-oct",
+      "nombre": "Cochinita · depa de 2 recámaras",
+      "tipo": "Open House para asesores",
+      "fecha": "Mié 28 oct",
+      "desarrollo": "Tábita",
+      "titulo": "Se abrió el segundo departamento muestra: 2 recámaras, 100% amueblado",
+      "intro": "El miércoles 28 de octubre, de 10:30 am a 1 pm, invitamos a asesores a conocer el segundo departamento muestra de Tábita, con tacos y tortas de cochinita para quienes llegaran acompañados.",
+      "cifras": [
+       {
+        "valor": "3",
+        "label": "Asesores que escribieron por la invitación"
+       },
+       {
+        "valor": "$131",
+        "label": "Por conversación"
+       },
+       {
+        "valor": "$394",
+        "label": "Pauta, del dinero de Tábita"
+       },
+       {
+        "valor": "—",
+        "label": "Asistentes: falta el dato"
+       }
+      ],
+      "dejo": [
+       "Falta registrar asistentes, inmobiliarias y clientes que llegaron.",
+       "El día anterior, con la invitación al aire, Tábita tuvo su mejor día del periodo: 10 conversaciones."
+      ],
+      "como": [
+       "Mismas audiencias de los eventos anteriores: lista de 1,115 teléfonos de asesores, interacción con la página de Trezco y parecidos.",
+       "Palabra clave COCHINITA.",
+       "$400 del dinero de Tábita; su tope de campaña bajó para no mezclar presupuestos."
+      ],
+      "campana": {
+       "nombre": "Tábita · COCHINITA · ASESORES 28 OCT",
+       "gasto": 394,
+       "conversaciones": 3,
+       "impresiones": 1948,
+       "clics": 129,
+       "inicio": "26 oct",
+       "fin": "28 oct",
+       "audiencia": "Asesores: lista de teléfonos + interacción con la página + parecidos",
+       "estado": "Terminó 28 oct",
+       "metaCosto": 160
+      },
+      "resultados": [
+       {
+        "label": "Asistentes",
+        "valor": "Por confirmar"
+       }
+      ]
+     },
+     {
+      "id": "costco-ameka",
+      "nombre": "Costco Event",
+      "tipo": "Evento para asesores",
+      "fecha": "Mié 14 oct",
+      "desarrollo": "Ameka",
+      "titulo": "Evento para asesores en Ameka con $384 de pauta",
+      "intro": "El miércoles 14 de octubre, de 9 am a 1 pm, invitamos a asesores a conocer Ameka. La campaña se apagó a las 11 am, como se acordó.",
+      "cifras": [
+       {
+        "valor": "3",
+        "label": "Asesores que escribieron por la invitación"
+       },
+       {
+        "valor": "$128",
+        "label": "Por conversación"
+       },
+       {
+        "valor": "$384",
+        "label": "Pauta, del dinero de Ameka"
+       },
+       {
+        "valor": "—",
+        "label": "Asistentes: falta el dato"
+       }
+      ],
+      "dejo": [
+       "Falta registrar asistentes, inmobiliarias y clientes que llegaron."
+      ],
+      "como": [
+       "Mismas audiencias del Open House de septiembre: lista de teléfonos de asesores, interacción con la página y parecidos.",
+       "Palabra clave COSTCO.",
+       "$400 del dinero de Ameka; Ameka bajó a $315 al día para no mezclar presupuestos."
+      ],
+      "campana": {
+       "nombre": "Ameka · COSTCO EVENT · ASESORES 14 OCT",
+       "gasto": 384,
+       "conversaciones": 3,
+       "impresiones": 2129,
+       "clics": 129,
+       "inicio": "12 oct",
+       "fin": "14 oct",
+       "audiencia": "Asesores: lista de teléfonos + interacción con la página + parecidos",
+       "estado": "Terminó 14 oct",
+       "metaCosto": 160
+      },
+      "resultados": [
+       {
+        "label": "Asistentes",
+        "valor": "Por confirmar"
+       }
+      ]
+     }
+    ]
+   },
+   "octubre": {
+    "titulo": "Noviembre tiene un objetivo: que los leads de campaña lleguen a cita",
+    "intro": "Octubre trajo más conversaciones y más baratas, pero ninguna cita de campaña quedó registrada. En noviembre la captación sigue igual y el trabajo se concentra en el paso a la cita.",
+    "metaPrincipal": {
+     "nombre": "Citas realizadas con leads de campaña",
+     "valor": "10",
+     "nota": "Octubre cerró sin citas de campaña registradas. El costo por conversación se mantiene en $160 o menos."
+    },
+    "metas": [
+     {
+      "nombre": "Registrar cada cita en Odoo el mismo día",
+      "antes": "0 de campaña",
+      "meta": "Todas",
+      "quien": "Asesores",
+      "como": "Etapa «Cita agendada»"
+     },
+     {
+      "nombre": "Interesados con asesor el mismo día",
+      "antes": "2 de 16",
+      "meta": "Todos",
+      "quien": "Katia y Rodrigo",
+      "como": "Asesor asignado en Odoo"
+     },
+     {
+      "nombre": "Contestar el primer mensaje, de 9 am a 7 pm",
+      "antes": "Sin medir",
+      "meta": "5 min",
+      "quien": "Katia",
+      "como": "Hora de primera respuesta en cada chat"
+     },
+     {
+      "nombre": "Citas agendadas",
+      "antes": "0",
+      "meta": "15",
+      "quien": "Asesores",
+      "como": "Etapa «Cita agendada»"
+     },
+     {
+      "nombre": "Citas realizadas",
+      "antes": "0",
+      "meta": "10",
+      "quien": "Asesores",
+      "como": "Cita marcada como realizada"
+     },
+     {
+      "nombre": "Apartados de campaña",
+      "antes": "0",
+      "meta": "1",
+      "quien": "Asesores",
+      "como": "Etapa «Apartado»"
+     }
+    ],
+    "seguimiento": [
+     {
+      "dia": "Día 0",
+      "texto": "Respuesta en 5 minutos, video del desarrollo y una pregunta: ¿para vivir o invertir?"
+     },
+     {
+      "dia": "Día 1",
+      "texto": "Mensaje con un dato nuevo: el plan de pagos."
+     },
+     {
+      "dia": "Día 3",
+      "texto": "Llamada del asesor. Si no contesta, nota de voz."
+     },
+     {
+      "dia": "Día 5",
+      "texto": "Video de avance de obra o del departamento muestra."
+     },
+     {
+      "dia": "Día 7",
+      "texto": "Llamada con dos horarios de cita para elegir."
+     },
+     {
+      "dia": "Día 10",
+      "texto": "Invitación a la siguiente visita o al incentivo del mes."
+     },
+     {
+      "dia": "Día 14",
+      "texto": "Mensaje de cierre: ¿sigues buscando?"
+     }
+    ],
+    "reglas": [
+     "Cada cita se registra en Odoo el mismo día, con fecha, asesor y desarrollo. Sin registro no cuenta.",
+     "Los 16 interesados de octubre reciben llamada esta semana; a los foráneos se les ofrece videollamada de 20 minutos con recorrido en vivo.",
+     "La cita se ofrece con dos opciones de horario y se recuerda 24 y 2 horas antes.",
+     "Revisión cada lunes, 30 minutos: tiempo de respuesta, leads entregados, citas agendadas y realizadas."
+    ],
+    "cambios": [
+     "Arrancar Aurum con el lote de noviembre (QUEDAN, REAL, SILENCIO, CRONÓMETRO) cuando estén las fichas.",
+     "Renovar los videos de Tábita para Mérida: DEPARTAMENTO v3 está en $175 por conversación.",
+     "Renovar el dinero de Tábita (5 nov) y Ameka (10 nov) sin dejar días en pausa.",
+     "Llevar la idea de foráneos a Ameka.",
+     "Probar el objetivo de clientes potenciales con destino WhatsApp usando la etiqueta «Lead»."
+    ]
+   },
+   "presupuesto": {
+    "intro": "Tábita y Ameka gastaron al ritmo planeado y cierran su dinero el 5 y el 10 de noviembre. La decisión de noviembre es cuánto entra a cada uno y cuándo arranca Aurum.",
+    "tituloProyeccion": "Proyección de noviembre con $44,000",
+    "escalones": [
+     {
+      "nombre": "Hoy",
+      "diario": "$555 al día",
+      "texto": "Tábita a $240 hasta el 5 nov y Ameka a $315 hasta el 10 nov. Aurum en pausa.",
+      "actual": true
+     },
+     {
+      "nombre": "Noviembre",
+      "diario": "$1,470 al día",
+      "texto": "$44,000 al mes: Tábita $9,000 y Ameka $10,000 como en octubre, más los $25,000 al mes de Aurum. Falta confirmar las dos renovaciones."
+     },
+     {
+      "nombre": "Escalón 3",
+      "diario": "$2,400 al día",
+      "texto": "$72,000 al mes, las tres campañas en 50 conversaciones por semana. Condición: 1 cita por cada 10 leads y costo por cita entre $1,500 y $4,000."
+     }
+    ],
+    "proyeccion": [
+     {
+      "etapa": "Conversaciones",
+      "bajo": "314",
+      "base": "400",
+      "alto": "489",
+      "fuente": "Costo de $140, $110 y $90. El base es el de octubre."
+     },
+     {
+      "etapa": "Leads en Odoo",
+      "bajo": "264",
+      "base": "336",
+      "alto": "411",
+      "fuente": "84% de las conversaciones, como en octubre."
+     },
+     {
+      "etapa": "Interesados",
+      "bajo": "42",
+      "base": "54",
+      "alto": "66",
+      "fuente": "16% de los leads, como en octubre."
+     },
+     {
+      "etapa": "Citas agendadas",
+      "bajo": "13",
+      "base": "34",
+      "alto": "62",
+      "fuente": "5%, 10% y 15% de los leads. Supuesto: octubre no dejó tasa propia."
+     },
+     {
+      "etapa": "Citas realizadas",
+      "bajo": "9",
+      "base": "25",
+      "alto": "49",
+      "fuente": "Asiste entre 70% y 80%. Supuesto."
+     },
+     {
+      "etapa": "Apartados",
+      "bajo": "0",
+      "base": "1",
+      "alto": "2 a 5",
+      "fuente": "3%, 5% y 10% de las citas realizadas. Supuesto."
+     }
+    ],
+    "unitaria": [
+     "Costo por interesado en octubre: $910. Costo por cita y por venta: aún no calculables, no hay citas de campaña registradas.",
+     "Techo acordado: 4% del valor de la propiedad, cerca de $90,000 por venta con un ticket de $2.25 millones. Todo lo invertido desde septiembre (~$37,000) cabe en ese techo con una sola venta.",
+     "Umbral de 90 días: la primera cohorte lo cumple el 9 de diciembre; faltan los dos criterios."
+    ],
+    "mercado": [
+     "Costo por lead de vivienda media en México: $80 a $300 (agencias). El nuestro: $108 por conversación.",
+     "Inversión típica por desarrollo: $15,000 a $50,000 al mes según el ticket. La nuestra: $5,600 a $9,000.",
+     "En Mérida se venden más de 200 departamentos al mes en unos 180 a 207 proyectos, cerca de una unidad por proyecto al mes (Softec).",
+     "Meta aprende mejor con unos 50 resultados por semana por campaña; en la última semana Tábita juntó 24 y Ameka 25."
+    ]
+   },
+   "calendario": {
+    "hecho": [
+     {
+      "fecha": "10 oct",
+      "texto": "Entran $10,000 para Ameka; su dinero dura hasta el 10 nov.",
+      "tipo": "presupuesto"
+     },
+     {
+      "fecha": "12 oct",
+      "texto": "Tábita a $320 y Ameka a $330 al día, con fecha de cierre. Entran PAGOS, PERFIL, DEPARTAMENTO v3 y AMUEBLADO sin fecha.",
+      "tipo": "campana"
+     },
+     {
+      "fecha": "13 oct",
+      "texto": "Se confirman $25,000 al mes para Aurum, depositados en efectivo.",
+      "tipo": "presupuesto"
+     },
+     {
+      "fecha": "14 oct",
+      "texto": "Costco Event para asesores en Ameka.",
+      "tipo": "evento"
+     },
+     {
+      "fecha": "15 oct",
+      "texto": "Registro en Odoo de los leads del 9 al 15 oct.",
+      "tipo": "operacion"
+     },
+     {
+      "fecha": "19 oct",
+      "texto": "Revisión semanal: la prueba de foráneos se queda y sube a $70 al día; Tábita a $300.",
+      "tipo": "campana"
+     },
+     {
+      "fecha": "21 oct",
+      "texto": "Se ocultan 18 comentarios de burla en los anuncios de Ameka.",
+      "tipo": "operacion"
+     },
+     {
+      "fecha": "26 oct",
+      "texto": "Sale la invitación al evento Cochinita.",
+      "tipo": "campana"
+     },
+     {
+      "fecha": "28 oct",
+      "texto": "Evento Cochinita: se abre el depa muestra de 2 recámaras de Tábita.",
+      "tipo": "evento"
+     },
+     {
+      "fecha": "29 oct",
+      "texto": "Registro en Odoo de los leads del 19 al 29 oct. Tábita baja a $240 al día para no pasar de su dinero.",
+      "tipo": "operacion"
+     }
+    ],
+    "sigue": [
+     {
+      "fecha": "Lun 2 nov",
+      "texto": "Reporte de avance y revisión semanal.",
+      "tipo": "reporte",
+      "hoy": true
+     },
+     {
+      "fecha": "Mar 3 nov",
+      "texto": "Registro en Odoo de los leads del 30 oct en adelante y llamada a los 16 interesados.",
+      "tipo": "operacion"
+     },
+     {
+      "fecha": "Mié 4 nov",
+      "texto": "Confirmar la renovación de Tábita para generar las fichas.",
+      "tipo": "presupuesto"
+     },
+     {
+      "fecha": "Jue 5 nov",
+      "texto": "Se acaba el dinero de Tábita.",
+      "tipo": "presupuesto"
+     },
+     {
+      "fecha": "Vie 6 nov",
+      "texto": "Nueva medición del tiempo de respuesta con los chats de octubre.",
+      "tipo": "operacion"
+     },
+     {
+      "fecha": "Lun 9 nov",
+      "texto": "Revisión semanal; arranque de Aurum si ya están las fichas y los videos.",
+      "tipo": "campana"
+     },
+     {
+      "fecha": "Mar 10 nov",
+      "texto": "Se acaba el dinero de Ameka. Cierre del reporte de octubre.",
+      "tipo": "reporte"
+     }
+    ],
+    "tipos": {
+     "campana": "Campañas y anuncios",
+     "operacion": "Seguimiento y operación",
+     "evento": "Eventos",
+     "presupuesto": "Presupuesto (socios)",
+     "reporte": "Reportes"
+    },
+    "meses": [
+     {
+      "nombre": "Octubre 2026",
+      "anio": 2026,
+      "mes": 10,
+      "lista": "hecho"
+     },
+     {
+      "nombre": "Noviembre 2026",
+      "anio": 2026,
+      "mes": 11,
+      "lista": "sigue"
+     }
+    ]
+   },
+   "socios": {
+    "intro": "Cada punto tiene fecha. Los dos primeros deciden si las campañas siguen corriendo después del 5 y el 10 de noviembre.",
+    "pedidos": [
+     {
+      "que": "Renovación del dinero de Tábita",
+      "detalle": "Se acaba el 5 de noviembre. Cuánto entra y en qué fecha, para generar las fichas a tiempo.",
+      "cuando": "Mié 4 nov"
+     },
+     {
+      "que": "Renovación del dinero de Ameka",
+      "detalle": "Se acaba el 10 de noviembre.",
+      "cuando": "Lun 9 nov"
+     },
+     {
+      "que": "Fichas de depósito de Aurum",
+      "detalle": "$18,000 al arranque y $7,000 cerca del día 12. Aurum no se enciende sin ellas ni sin los videos del lote de noviembre.",
+      "cuando": "Esta semana"
+     },
+     {
+      "que": "Que los asesores registren sus citas en Odoo",
+      "detalle": "Hoy no hay una sola cita de campaña registrada; sin ese dato no se puede medir el costo por cita.",
+      "cuando": "Desde hoy"
+     },
+     {
+      "que": "Asesor de piso para los 16 interesados",
+      "detalle": "Dos o tres asesores con nombre y horario que llamen en menos de una hora. Hoy, 14 sin asesor de piso.",
+      "cuando": "Esta semana"
+     },
+     {
+      "que": "Asistencia de los dos eventos de octubre",
+      "detalle": "Cuántos asesores e inmobiliarias llegaron al Costco Event y a la Cochinita, y si alguien trajo cliente.",
+      "cuando": "Esta semana"
+     },
+     {
+      "que": "Respaldo para Katia en tardes y fines de semana",
+      "detalle": "Pendiente desde septiembre.",
+      "cuando": "Por definir"
+     },
+     {
+      "que": "Los dos criterios del umbral de 90 días",
+      "detalle": "Con qué resultado se sube el presupuesto y con cuál se replantea. La primera cohorte cumple 90 días el 9 de diciembre.",
+      "cuando": "Antes del 9 dic"
+     }
+    ],
+    "riesgos": [
+     "Sin citas registradas no hay forma de saber si la pauta convierte, y el corte de 90 días no tendría con qué medirse.",
+     "Si la renovación de Tábita no llega el 5 de noviembre, la campaña se detiene y pierde lo que Meta aprendió.",
+     "Tábita Mérida depende de videos cansados: el v3 está en $175 por conversación.",
+     "Una sola persona contesta WhatsApp y el tiempo de respuesta no se ha vuelto a medir."
+    ]
+   },
+   "evidencia": {
+    "intro": "Casi toda la evidencia es de Estados Unidos o de proveedores de software. La dirección es confiable; las cifras exactas no se trasladan tal cual a Mérida.",
+    "puntos": [
+     {
+      "cifra": "×7",
+      "titulo": "Los primeros minutos deciden",
+      "texto": "Contestar en la primera hora multiplica por 7 la probabilidad de calificar al prospecto. Harvard Business Review, 2011, 2,241 empresas."
+     },
+     {
+      "cifra": "93%",
+      "titulo": "Insistir funciona",
+      "texto": "De los leads que convierten, 93% se alcanzan antes del sexto intento, y la mitad nunca recibe un segundo. Velocify, 2013, 3.5 millones de leads."
+     },
+     {
+      "cifra": "×3",
+      "titulo": "La cita es el punto de quiebre",
+      "texto": "Quien confirma una cita en el primer contacto tiene 3 veces más probabilidad de comprar. Zillow, 2023."
+     },
+     {
+      "cifra": "47%",
+      "titulo": "El comprador prefiere mensaje",
+      "texto": "53% prefiere texto o mensajería y 47% contrata al primer agente que le contesta. Zillow, 2025."
+     },
+     {
+      "cifra": "−24%",
+      "titulo": "Optimizar por leads cuesta menos",
+      "texto": "Las campañas a WhatsApp optimizadas por leads dieron 24% menos costo por lead. Meta, 116 mil campañas, 2024."
+     },
+     {
+      "cifra": "2 → 12",
+      "titulo": "Un caso mexicano",
+      "texto": "Lomas de Angelópolis pasó de 2 a 12 citas al mes con anuncios a WhatsApp y respuesta inmediata. Caso de Meta."
+     },
+     {
+      "cifra": "1 de 20",
+      "titulo": "Pocos anuncios ganan",
+      "texto": "Solo 1 de cada 20 anuncios resulta ganador y se lleva más de la mitad del gasto; diversificar creativos rinde 32% más. Motion 2026; Meta Performance 5."
+     }
+    ],
+    "fuentes": [
+     {
+      "t": "Harvard Business Review, The Short Life of Online Sales Leads",
+      "u": "https://hbr.org/2011/03/the-short-life-of-online-sales-leads"
+     },
+     {
+      "t": "Velocify, estrategia de contacto",
+      "u": "https://natlawreview.com/article/study-reveals-best-contact-strategies-optimal-lead-conversion"
+     },
+     {
+      "t": "Zillow, Conversion Playbook 2023",
+      "u": "https://www.zillowstatic.com/bedrock/app/uploads/sites/33/2023/05/Zillow-Premier-Agent-Conversion-Playbook_Oct2023.pdf"
+     },
+     {
+      "t": "Zillow, Consumer Housing Trends 2025",
+      "u": "https://www.zillowstatic.com/bedrock/app/uploads/sites/33/2024/09/2025-Consumer-Housing-Trends-Report-for-Agents.pdf"
+     },
+     {
+      "t": "Meta, optimización de anuncios a WhatsApp",
+      "u": "https://whatsappbusiness.com/resources/resource-library/down-funnel-optimizations-whatsapp/"
+     },
+     {
+      "t": "Meta, caso Lomas de Angelópolis",
+      "u": "https://whatsappbusiness.com/resources/success-stories/lomas-de-angelopolis/"
+     },
+     {
+      "t": "Centro Urbano, departamentos en Mérida (Softec)",
+      "u": "https://centrourbano.com/revista/vivienda/departamentos-vivienda-merida/"
+     },
+     {
+      "t": "Motion, Creative Benchmarks 2026",
+      "u": "https://motionapp.com/library/research/creative-benchmarks-2026/"
+     },
+     {
+      "t": "Jon Loomer, fase de aprendizaje de Meta",
+      "u": "https://www.jonloomer.com/how-facebook-optimization-for-ad-delivery-works/"
+     },
+     {
+      "t": "Azterion, costos en México",
+      "u": "https://azterion.com/facebook-ads-para-inmobiliarias/"
+     },
+     {
+      "t": "Trichter, leads inmobiliarios",
+      "u": "https://trichterconsulting.com/leads-inmobiliarios-guia-estrategica/"
+     },
+     {
+      "t": "Perfilan, prospectos por venta",
+      "u": "https://blog.perfilan.com/2020/05/19/analisis-del-desempeno-de-ventas-cuantos-prospectos-necesito-para-vender-una-propiedad/"
+     }
+    ]
+   }
   }
  ]
 }
