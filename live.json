@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T11:06-06:00",
+ "actualizado": "2026-11-02T13:14-06:00",
  "fuente": "Meta Ads · conversaciones de WhatsApp iniciadas (7 días)",
  "automatico": true,
  "campanas": [
@@ -13,10 +13,10 @@
    "presupuestoDiario": 100.0,
    "fin": "2026-11-07",
    "acumulado": {
-    "gasto": 15862.59,
+    "gasto": 15878.38,
     "conversaciones": 127,
-    "impresiones": 148847,
-    "clics": 4107
+    "impresiones": 149015,
+    "clics": 4118
    },
    "dias": [
     {
@@ -63,10 +63,10 @@
     },
     {
      "fecha": "2026-11-02",
-     "gasto": 52.29,
+     "gasto": 68.08,
      "conversaciones": 0,
-     "impresiones": 477,
-     "clics": 16
+     "impresiones": 645,
+     "clics": 27
     }
    ]
   },
@@ -80,10 +80,10 @@
    "presupuestoDiario": 315.0,
    "fin": "2026-11-10",
    "acumulado": {
-    "gasto": 14469.54,
-    "conversaciones": 157,
-    "impresiones": 127699,
-    "clics": 5322
+    "gasto": 14502.05,
+    "conversaciones": 158,
+    "impresiones": 127978,
+    "clics": 5348
    },
    "dias": [
     {
@@ -123,17 +123,84 @@
     },
     {
      "fecha": "2026-11-01",
-     "gasto": 405.38,
+     "gasto": 405.41,
      "conversaciones": 2,
-     "impresiones": 3817,
+     "impresiones": 3820,
      "clics": 167
     },
     {
      "fecha": "2026-11-02",
-     "gasto": 101.8,
-     "conversaciones": 2,
-     "impresiones": 930,
-     "clics": 65
+     "gasto": 134.28,
+     "conversaciones": 3,
+     "impresiones": 1206,
+     "clics": 91
+    }
+   ]
+  },
+  {
+   "id": "120252373956470072",
+   "nombre": "Aurum",
+   "nombreCompleto": "Aurum · WhatsApp · Nov-2026",
+   "cuenta": "AURUM APARTMENTS",
+   "autorizado": 18000,
+   "estado": "ACTIVE",
+   "presupuestoDiario": 600.0,
+   "fin": "",
+   "acumulado": {
+    "gasto": 0,
+    "conversaciones": 0,
+    "impresiones": 0,
+    "clics": 0
+   },
+   "dias": [
+    {
+     "fecha": "2026-10-27",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-28",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-29",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-30",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-31",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-11-01",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
     }
    ]
   },
@@ -166,6 +233,73 @@
      "conversaciones": 1,
      "impresiones": 303,
      "clics": 24
+    },
+    {
+     "fecha": "2026-10-29",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-30",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-31",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-11-01",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    }
+   ]
+  },
+  {
+   "id": "120251875954630373",
+   "nombre": "Tábita · Rifa Viaje",
+   "nombreCompleto": "Tábita · RIFA VIAJE · ASESORES 4 NOV",
+   "cuenta": "Grupo Trezco",
+   "autorizado": 320,
+   "estado": "ACTIVE",
+   "presupuestoDiario": 0,
+   "fin": "2026-11-04",
+   "acumulado": {
+    "gasto": 0,
+    "conversaciones": 0,
+    "impresiones": 0,
+    "clics": 0
+   },
+   "dias": [
+    {
+     "fecha": "2026-10-27",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-28",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
     },
     {
      "fecha": "2026-10-29",
