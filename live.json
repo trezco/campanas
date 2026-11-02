@@ -1,18 +1,21 @@
 {
- "actualizado": "2026-11-02T10:12-06:00",
+ "actualizado": "2026-11-02T10:51-06:00",
  "fuente": "Meta Ads · conversaciones de WhatsApp iniciadas (7 días)",
+ "automatico": true,
  "campanas": [
   {
    "id": "120251063801410373",
    "nombre": "Tábita",
+   "nombreCompleto": "Tábita · WhatsApp · Prueba Sep-2026",
    "cuenta": "Grupo Trezco",
-   "autorizado": 18000,
+   "autorizado": 16770,
    "estado": "ACTIVE",
    "presupuestoDiario": 100.0,
+   "fin": "2026-11-07",
    "acumulado": {
-    "gasto": 15855.32,
+    "gasto": 15858.79,
     "conversaciones": 127,
-    "impresiones": 148747,
+    "impresiones": 148802,
     "clics": 4104
    },
    "dias": [
@@ -60,9 +63,9 @@
     },
     {
      "fecha": "2026-11-02",
-     "gasto": 45.02,
+     "gasto": 48.49,
      "conversaciones": 0,
-     "impresiones": 377,
+     "impresiones": 432,
      "clics": 13
     }
    ]
@@ -70,15 +73,17 @@
   {
    "id": "120251063806180373",
    "nombre": "Ameka",
+   "nombreCompleto": "Ameka · WhatsApp · Prueba Sep-2026",
    "cuenta": "Grupo Trezco",
-   "autorizado": 17500,
+   "autorizado": 17100,
    "estado": "ACTIVE",
    "presupuestoDiario": 315.0,
+   "fin": "2026-11-10",
    "acumulado": {
-    "gasto": 14451.01,
-    "conversaciones": 156,
-    "impresiones": 127544,
-    "clics": 5307
+    "gasto": 14466.25,
+    "conversaciones": 157,
+    "impresiones": 127662,
+    "clics": 5321
    },
    "dias": [
     {
@@ -125,20 +130,22 @@
     },
     {
      "fecha": "2026-11-02",
-     "gasto": 83.27,
-     "conversaciones": 1,
-     "impresiones": 775,
-     "clics": 50
+     "gasto": 98.51,
+     "conversaciones": 2,
+     "impresiones": 893,
+     "clics": 64
     }
    ]
   },
   {
    "id": "120251277642690072",
    "nombre": "Aurum",
+   "nombreCompleto": "Aurum · WhatsApp · Prueba Sep-2026",
    "cuenta": "AURUM APARTMENTS",
    "autorizado": 5600,
    "estado": "PAUSED",
    "presupuestoDiario": 185.0,
+   "fin": "",
    "acumulado": {
     "gasto": 5600.0,
     "conversaciones": 50,
@@ -159,6 +166,140 @@
      "conversaciones": 0,
      "impresiones": 0,
      "clics": 0
+    },
+    {
+     "fecha": "2026-10-29",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-30",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-31",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-11-01",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    }
+   ]
+  },
+  {
+   "id": "120251551212280373",
+   "nombre": "Ameka · Costco Event",
+   "nombreCompleto": "Ameka · COSTCO EVENT · ASESORES 14 OCT",
+   "cuenta": "Grupo Trezco",
+   "autorizado": 400,
+   "estado": "PAUSED",
+   "presupuestoDiario": 0,
+   "fin": "2026-10-14",
+   "acumulado": {
+    "gasto": 383.65,
+    "conversaciones": 3,
+    "impresiones": 2129,
+    "clics": 129
+   },
+   "dias": [
+    {
+     "fecha": "2026-10-27",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-28",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-29",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-30",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-10-31",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-11-01",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    },
+    {
+     "fecha": "2026-11-02",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
+    }
+   ]
+  },
+  {
+   "id": "120251766902520373",
+   "nombre": "Tábita · Cochinita",
+   "nombreCompleto": "Tábita · COCHINITA · ASESORES 28 OCT · Depa 2 rec",
+   "cuenta": "Grupo Trezco",
+   "autorizado": 400,
+   "estado": "ACTIVE",
+   "presupuestoDiario": 0,
+   "fin": "2026-10-28",
+   "acumulado": {
+    "gasto": 393.93,
+    "conversaciones": 3,
+    "impresiones": 1948,
+    "clics": 129
+   },
+   "dias": [
+    {
+     "fecha": "2026-10-27",
+     "gasto": 289.95,
+     "conversaciones": 2,
+     "impresiones": 1399,
+     "clics": 87
+    },
+    {
+     "fecha": "2026-10-28",
+     "gasto": 59.46,
+     "conversaciones": 1,
+     "impresiones": 303,
+     "clics": 24
     },
     {
      "fecha": "2026-10-29",
