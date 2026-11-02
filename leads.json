@@ -1,0 +1,267 @@
+{
+ "actualizado": "2026-11-02T11:06-06:00",
+ "fuente": "Odoo CRM · leads creados desde el 10 sep 2026",
+ "automatico": true,
+ "desde": "2026-09-10",
+ "totalCampanas": {
+  "leads": 243,
+  "interesados": 49,
+  "calientes": 5,
+  "tibios": 44,
+  "frios": 147,
+  "nocalifica": 31,
+  "conAsesor": 12,
+  "citas": 0,
+  "perdidos": 30
+ },
+ "desarrollos": [
+  {
+   "id": "tabita",
+   "nombre": "Tábita",
+   "leads": 109,
+   "interesados": 26,
+   "calientes": 5,
+   "tibios": 21,
+   "frios": 64,
+   "nocalifica": 13,
+   "sinEtiqueta": 6,
+   "conAsesor": 7,
+   "citas": 0,
+   "perdidos": 12,
+   "etapas": [
+    {
+     "nombre": "Nuevo Lead",
+     "valor": 5
+    },
+    {
+     "nombre": "Contactados",
+     "valor": 72
+    },
+    {
+     "nombre": "Primer mensaje",
+     "valor": 19
+    },
+    {
+     "nombre": "Primera llamada",
+     "valor": 1
+    },
+    {
+     "nombre": "Perdido",
+     "valor": 12
+    }
+   ],
+   "porAsesor": {
+    "Rodrigo Avila": 102,
+    "Esteban de la Guerra": 4,
+    "Jesus Ponce": 3
+   }
+  },
+  {
+   "id": "ameka",
+   "nombre": "Ameka",
+   "leads": 99,
+   "interesados": 16,
+   "calientes": 0,
+   "tibios": 16,
+   "frios": 66,
+   "nocalifica": 9,
+   "sinEtiqueta": 8,
+   "conAsesor": 1,
+   "citas": 0,
+   "perdidos": 9,
+   "etapas": [
+    {
+     "nombre": "Nuevo Lead",
+     "valor": 7
+    },
+    {
+     "nombre": "Contactados",
+     "valor": 71
+    },
+    {
+     "nombre": "Primer mensaje",
+     "valor": 12
+    },
+    {
+     "nombre": "Perdido",
+     "valor": 9
+    }
+   ],
+   "porAsesor": {
+    "Rodrigo Avila": 98,
+    "Jesus Ponce": 1
+   }
+  },
+  {
+   "id": "aurum",
+   "nombre": "Aurum",
+   "leads": 35,
+   "interesados": 7,
+   "calientes": 0,
+   "tibios": 7,
+   "frios": 17,
+   "nocalifica": 9,
+   "sinEtiqueta": 2,
+   "conAsesor": 4,
+   "citas": 0,
+   "perdidos": 9,
+   "etapas": [
+    {
+     "nombre": "Contactados",
+     "valor": 20
+    },
+    {
+     "nombre": "Primer mensaje",
+     "valor": 6
+    },
+    {
+     "nombre": "Perdido",
+     "valor": 9
+    }
+   ],
+   "porAsesor": {
+    "Rodrigo Avila": 31,
+    "Jesus Ponce": 3,
+    "Esteban de la Guerra": 1
+   }
+  },
+  {
+   "id": "organico",
+   "nombre": "Orgánico",
+   "leads": 5,
+   "interesados": 1,
+   "calientes": 0,
+   "tibios": 1,
+   "frios": 2,
+   "nocalifica": 2,
+   "sinEtiqueta": 0,
+   "conAsesor": 0,
+   "citas": 0,
+   "perdidos": 2,
+   "etapas": [
+    {
+     "nombre": "Contactados",
+     "valor": 3
+    },
+    {
+     "nombre": "Perdido",
+     "valor": 2
+    }
+   ],
+   "porAsesor": {
+    "Rodrigo Avila": 5
+   }
+  },
+  {
+   "id": "sin",
+   "nombre": "Sin campaña",
+   "leads": 35,
+   "interesados": 6,
+   "calientes": 0,
+   "tibios": 6,
+   "frios": 15,
+   "nocalifica": 5,
+   "sinEtiqueta": 9,
+   "conAsesor": 0,
+   "citas": 3,
+   "perdidos": 5,
+   "etapas": [
+    {
+     "nombre": "Nuevo Lead",
+     "valor": 7
+    },
+    {
+     "nombre": "Contactados",
+     "valor": 20
+    },
+    {
+     "nombre": "Cita Agendada",
+     "valor": 3
+    },
+    {
+     "nombre": "Perdido",
+     "valor": 5
+    }
+   ],
+   "porAsesor": {
+    "Rodrigo Avila": 35
+   }
+  }
+ ],
+ "ultimos14": [
+  {
+   "fecha": "2026-10-20",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-10-21",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-10-22",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-10-23",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-10-24",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-10-25",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-10-26",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-10-27",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-10-28",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-10-29",
+   "leads": 64
+  },
+  {
+   "fecha": "2026-10-30",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-10-31",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-11-01",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-11-02",
+   "leads": 0
+  }
+ ],
+ "mensual": [
+  {
+   "mes": "2026-09",
+   "Aurum": 21,
+   "Ameka": 28,
+   "Tábita": 61,
+   "Orgánico": 3,
+   "Sin campaña": 1
+  },
+  {
+   "mes": "2026-10",
+   "Tábita": 48,
+   "Sin campaña": 34,
+   "Ameka": 71,
+   "Orgánico": 2,
+   "Aurum": 14
+  }
+ ]
+}

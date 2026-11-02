@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T10:52-06:00",
+ "actualizado": "2026-11-02T11:06-06:00",
  "fuente": "Meta Ads · conversaciones de WhatsApp iniciadas (7 días)",
  "automatico": true,
  "campanas": [
@@ -13,10 +13,10 @@
    "presupuestoDiario": 100.0,
    "fin": "2026-11-07",
    "acumulado": {
-    "gasto": 15859.13,
+    "gasto": 15862.59,
     "conversaciones": 127,
-    "impresiones": 148808,
-    "clics": 4104
+    "impresiones": 148847,
+    "clics": 4107
    },
    "dias": [
     {
@@ -63,10 +63,10 @@
     },
     {
      "fecha": "2026-11-02",
-     "gasto": 48.49,
+     "gasto": 52.29,
      "conversaciones": 0,
-     "impresiones": 432,
-     "clics": 13
+     "impresiones": 477,
+     "clics": 16
     }
    ]
   },
@@ -80,9 +80,9 @@
    "presupuestoDiario": 315.0,
    "fin": "2026-11-10",
    "acumulado": {
-    "gasto": 14467.4,
+    "gasto": 14469.54,
     "conversaciones": 157,
-    "impresiones": 127670,
+    "impresiones": 127699,
     "clics": 5322
    },
    "dias": [
@@ -130,9 +130,9 @@
     },
     {
      "fecha": "2026-11-02",
-     "gasto": 99.66,
+     "gasto": 101.8,
      "conversaciones": 2,
-     "impresiones": 901,
+     "impresiones": 930,
      "clics": 65
     }
    ]
