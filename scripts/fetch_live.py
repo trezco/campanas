@@ -67,7 +67,6 @@ def main():
         sys.exit("Falta META_TOKEN")
     hoy = datetime.datetime.now(TZ).date()
     desde7 = hoy - datetime.timedelta(days=6)
-    desde30 = hoy - datetime.timedelta(days=30)
     campanas = []
     for cta in CUENTAS:
         lista = get(f"act_{cta['id']}/campaigns",
@@ -82,9 +81,13 @@ def main():
             tot = get(f"{cid}/insights", fields="spend,impressions,clicks,actions", date_preset="maximum")
             tot = fila(tot[0]) if tot else {"gasto": 0, "conversaciones": 0, "impresiones": 0, "clics": 0}
             tot.pop("fecha", None)
-            rec = get(f"{cid}/insights", fields="spend", time_range=json.dumps({"since": str(desde30), "until": str(hoy)}))
-            gasto30 = num(rec[0]["spend"]) if rec else 0
-            if c["effective_status"] != "ACTIVE" and gasto30 <= 0:
+            rec = get(f"{cid}/insights", fields="spend", time_range=json.dumps({"since": str(desde7), "until": str(hoy)}))
+            gasto7 = num(rec[0]["spend"]) if rec else 0
+            fin = (c.get("stop_time") or "")[:10]
+            terminada = bool(fin) and fin < str(hoy)
+            if c["effective_status"] != "ACTIVE" and gasto7 <= 0:
+                continue
+            if terminada and gasto7 <= 0:
                 continue
             dias = get(f"{cid}/insights", fields="spend,impressions,clicks,actions,date_start",
                        time_range=json.dumps({"since": str(desde7), "until": str(hoy)}), time_increment=1)
@@ -97,9 +100,9 @@ def main():
             campanas.append({
                 "id": cid, "nombre": nombre_corto(c["name"]), "nombreCompleto": c["name"],
                 "cuenta": cta["nombre"], "autorizado": round(autorizado),
-                "estado": c["effective_status"],
+                "estado": "ENDED" if terminada else c["effective_status"],
                 "presupuestoDiario": num(c.get("daily_budget")) / 100 if c.get("daily_budget") else 0,
-                "fin": (c.get("stop_time") or "")[:10],
+                "fin": fin,
                 "acumulado": tot, "dias": serie,
             })
     orden = {"tabita": 0, "ameka": 1, "aurum": 2}
