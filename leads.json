@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T22:08-06:00",
+ "actualizado": "2026-11-03T01:30-06:00",
  "fuente": "Odoo CRM · leads creados desde el 10 sep 2026",
  "automatico": true,
  "desde": "2026-09-10",
@@ -190,10 +190,6 @@
  ],
  "ultimos14": [
   {
-   "fecha": "2026-10-20",
-   "leads": 0
-  },
-  {
    "fecha": "2026-10-21",
    "leads": 0
   },
@@ -243,6 +239,10 @@
   },
   {
    "fecha": "2026-11-02",
+   "leads": 0
+  },
+  {
+   "fecha": "2026-11-03",
    "leads": 0
   }
  ],

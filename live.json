@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T22:08-06:00",
+ "actualizado": "2026-11-03T01:30-06:00",
  "fuente": "Meta Ads · conversaciones de WhatsApp iniciadas (7 días)",
  "automatico": true,
  "campanas": [
@@ -13,19 +13,12 @@
    "presupuestoDiario": 100.0,
    "fin": "2026-11-07",
    "acumulado": {
-    "gasto": 15925.28,
+    "gasto": 15933.72,
     "conversaciones": 127,
-    "impresiones": 149375,
-    "clics": 4129
+    "impresiones": 149428,
+    "clics": 4130
    },
    "dias": [
-    {
-     "fecha": "2026-10-27",
-     "gasto": 386.31,
-     "conversaciones": 8,
-     "impresiones": 2073,
-     "clics": 104
-    },
     {
      "fecha": "2026-10-28",
      "gasto": 285.98,
@@ -63,10 +56,17 @@
     },
     {
      "fecha": "2026-11-02",
-     "gasto": 114.93,
+     "gasto": 122.47,
      "conversaciones": 0,
-     "impresiones": 1003,
-     "clics": 38
+     "impresiones": 1044,
+     "clics": 39
+    },
+    {
+     "fecha": "2026-11-03",
+     "gasto": 0.9,
+     "conversaciones": 0,
+     "impresiones": 12,
+     "clics": 0
     }
    ]
   },
@@ -80,19 +80,12 @@
    "presupuestoDiario": 315.0,
    "fin": "2026-11-10",
    "acumulado": {
-    "gasto": 14577.15,
+    "gasto": 14592.91,
     "conversaciones": 159,
-    "impresiones": 128789,
-    "clics": 5384
+    "impresiones": 128945,
+    "clics": 5390
    },
    "dias": [
-    {
-     "fecha": "2026-10-27",
-     "gasto": 364.5,
-     "conversaciones": 2,
-     "impresiones": 2956,
-     "clics": 224
-    },
     {
      "fecha": "2026-10-28",
      "gasto": 285.5,
@@ -130,10 +123,17 @@
     },
     {
      "fecha": "2026-11-02",
-     "gasto": 209.18,
+     "gasto": 220.92,
      "conversaciones": 4,
-     "impresiones": 2008,
-     "clics": 127
+     "impresiones": 2130,
+     "clics": 133
+    },
+    {
+     "fecha": "2026-11-03",
+     "gasto": 4.02,
+     "conversaciones": 0,
+     "impresiones": 34,
+     "clics": 0
     }
    ]
   },
@@ -147,19 +147,12 @@
    "presupuestoDiario": 600.0,
    "fin": "",
    "acumulado": {
-    "gasto": 358.59,
-    "conversaciones": 4,
-    "impresiones": 2723,
-    "clics": 61
+    "gasto": 403.68,
+    "conversaciones": 5,
+    "impresiones": 3123,
+    "clics": 67
    },
    "dias": [
-    {
-     "fecha": "2026-10-27",
-     "gasto": 0.0,
-     "conversaciones": 0,
-     "impresiones": 0,
-     "clics": 0
-    },
     {
      "fecha": "2026-10-28",
      "gasto": 0.0,
@@ -197,10 +190,17 @@
     },
     {
      "fecha": "2026-11-02",
-     "gasto": 358.59,
-     "conversaciones": 4,
-     "impresiones": 2723,
-     "clics": 61
+     "gasto": 396.76,
+     "conversaciones": 5,
+     "impresiones": 3007,
+     "clics": 66
+    },
+    {
+     "fecha": "2026-11-03",
+     "gasto": 6.92,
+     "conversaciones": 0,
+     "impresiones": 116,
+     "clics": 1
     }
    ]
   },
@@ -220,13 +220,6 @@
     "clics": 129
    },
    "dias": [
-    {
-     "fecha": "2026-10-27",
-     "gasto": 289.95,
-     "conversaciones": 2,
-     "impresiones": 1399,
-     "clics": 87
-    },
     {
      "fecha": "2026-10-28",
      "gasto": 59.46,
@@ -268,6 +261,13 @@
      "conversaciones": 0,
      "impresiones": 0,
      "clics": 0
+    },
+    {
+     "fecha": "2026-11-03",
+     "gasto": 0.0,
+     "conversaciones": 0,
+     "impresiones": 0,
+     "clics": 0
     }
    ]
   },
@@ -281,19 +281,12 @@
    "presupuestoDiario": 0,
    "fin": "2026-11-04",
    "acumulado": {
-    "gasto": 76.71,
-    "conversaciones": 1,
-    "impresiones": 445,
-    "clics": 39
+    "gasto": 100.65,
+    "conversaciones": 2,
+    "impresiones": 600,
+    "clics": 54
    },
    "dias": [
-    {
-     "fecha": "2026-10-27",
-     "gasto": 0.0,
-     "conversaciones": 0,
-     "impresiones": 0,
-     "clics": 0
-    },
     {
      "fecha": "2026-10-28",
      "gasto": 0.0,
@@ -331,10 +324,17 @@
     },
     {
      "fecha": "2026-11-02",
-     "gasto": 76.78,
+     "gasto": 91.89,
      "conversaciones": 1,
-     "impresiones": 449,
-     "clics": 39
+     "impresiones": 555,
+     "clics": 51
+    },
+    {
+     "fecha": "2026-11-03",
+     "gasto": 8.76,
+     "conversaciones": 1,
+     "impresiones": 45,
+     "clics": 3
     }
    ]
   }
