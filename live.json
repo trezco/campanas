@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T01:30-06:00",
+ "actualizado": "2026-11-03T04:10-06:00",
  "fuente": "Meta Ads · conversaciones de WhatsApp iniciadas (7 días)",
  "automatico": true,
  "campanas": [
@@ -13,10 +13,10 @@
    "presupuestoDiario": 100.0,
    "fin": "2026-11-07",
    "acumulado": {
-    "gasto": 15933.72,
+    "gasto": 15934.67,
     "conversaciones": 127,
-    "impresiones": 149428,
-    "clics": 4130
+    "impresiones": 149437,
+    "clics": 4131
    },
    "dias": [
     {
@@ -59,13 +59,13 @@
      "gasto": 122.47,
      "conversaciones": 0,
      "impresiones": 1044,
-     "clics": 39
+     "clics": 40
     },
     {
      "fecha": "2026-11-03",
-     "gasto": 0.9,
+     "gasto": 1.85,
      "conversaciones": 0,
-     "impresiones": 12,
+     "impresiones": 21,
      "clics": 0
     }
    ]
@@ -80,9 +80,9 @@
    "presupuestoDiario": 315.0,
    "fin": "2026-11-10",
    "acumulado": {
-    "gasto": 14592.91,
+    "gasto": 14597.7,
     "conversaciones": 159,
-    "impresiones": 128945,
+    "impresiones": 128999,
     "clics": 5390
    },
    "dias": [
@@ -123,16 +123,16 @@
     },
     {
      "fecha": "2026-11-02",
-     "gasto": 220.92,
+     "gasto": 221.33,
      "conversaciones": 4,
-     "impresiones": 2130,
+     "impresiones": 2131,
      "clics": 133
     },
     {
      "fecha": "2026-11-03",
-     "gasto": 4.02,
+     "gasto": 8.42,
      "conversaciones": 0,
-     "impresiones": 34,
+     "impresiones": 88,
      "clics": 0
     }
    ]
@@ -147,9 +147,9 @@
    "presupuestoDiario": 600.0,
    "fin": "",
    "acumulado": {
-    "gasto": 403.68,
+    "gasto": 409.42,
     "conversaciones": 5,
-    "impresiones": 3123,
+    "impresiones": 3196,
     "clics": 67
    },
    "dias": [
@@ -190,16 +190,16 @@
     },
     {
      "fecha": "2026-11-02",
-     "gasto": 396.76,
+     "gasto": 396.88,
      "conversaciones": 5,
-     "impresiones": 3007,
+     "impresiones": 3008,
      "clics": 66
     },
     {
      "fecha": "2026-11-03",
-     "gasto": 6.92,
+     "gasto": 12.54,
      "conversaciones": 0,
-     "impresiones": 116,
+     "impresiones": 188,
      "clics": 1
     }
    ]
@@ -281,10 +281,10 @@
    "presupuestoDiario": 0,
    "fin": "2026-11-04",
    "acumulado": {
-    "gasto": 100.65,
-    "conversaciones": 2,
-    "impresiones": 600,
-    "clics": 54
+    "gasto": 106.78,
+    "conversaciones": 3,
+    "impresiones": 627,
+    "clics": 56
    },
    "dias": [
     {
@@ -331,10 +331,10 @@
     },
     {
      "fecha": "2026-11-03",
-     "gasto": 8.76,
-     "conversaciones": 1,
-     "impresiones": 45,
-     "clics": 3
+     "gasto": 14.89,
+     "conversaciones": 2,
+     "impresiones": 72,
+     "clics": 5
     }
    ]
   }
